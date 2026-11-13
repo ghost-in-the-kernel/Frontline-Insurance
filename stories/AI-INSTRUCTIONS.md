@@ -65,12 +65,26 @@ Everything a story names must match exactly one thing here:
 | a link or menu item ("Services > Cloud") | ai/GLOSSARY.md (header, footer and page links, with the method that follows each) |
 | a button, field, dropdown, checkbox | controls/<PageClass>.md, controls/Everywhere.md |
 | text on a page, a heading | the page class's Elements and Javadoc; crawl/ for what the crawl read |
+| anything on a crawled page, with or without a locator | crawl/pages/<path>.html: the page's HTML as the crawl saw it (data-sb-hidden="true" marks what a visitor had not opened yet: seen, not shown) |
 | a page or state the crawl never saw | saved-pages/<PageClass>/ (see saved-pages/README.md) |
 | test data, a login | SiteConfig values and secrets, and the team rules below |
 
+**Check every locator a story gives you** against the page it is on, as the crawl saw it: a locator
+that looks right can find nothing, or several things. Where Suite Builder is installed:
+
+```
+suite locate frontlineinsurance-com-tests <page> "<locator>"
+```
+
+(`<page>` is its path, like `/careers`.) Exactly one element: use it. None, or several: push back, saying
+what it found. Otherwise read crawl/pages/<path>.html and search it. A page the crawl never read has
+no snapshot: use the story's locator only if it gives one, and write "unverified: <why>" in the
+IMPLEMENTED note; with none, push back and ask for a saved page. An element the story names without a
+locator: find it in the page's snapshot, and check the locator you write the same way.
+
 **When crawl/pages/ is not here, and how old the crawl is.** crawl/pages/ (each page's HTML as the crawl
 saw it) is kept only on the computer that crawled, for a day after the crawl; it is never in a pipeline's checkout,
-where the crew works, nor in a copy cloned from git. Look before you rely on it. When it is not here, read the crawl (kept in the dock, not in this demo suite)
+where the crew works, nor in a copy cloned from git. Look before you rely on it. When it is not here, read crawl/www.frontlineinsurance.com.crawl.json
 (each page's title, headings, links and texts as crawled), controls/ and the page classes instead; what a story names
 that none of them holds is not known to be missing: ask for that page saved (saved-pages/, under `Needs from you:`),
 never push back saying the page does not show it, and never write a locator you could not check.
@@ -79,6 +93,8 @@ Every push-back says how old the crawl is: read `crawlFileSaved` in crawl/manife
 
 ## 3. Push back when
 
+- **Its locator is wrong.** A locator the story gives finds nothing, or several things, on the page as
+  crawled. Quote what it found (suite locate lists it), and ask for one that finds exactly one.
 - **It is vague.** A word matches nothing here, or more than one thing ("Contact Us": the header link or
   the footer form?). Name the words and the candidates.
 - **It does not match the site.** It names something the crawled page shows in other words (the story's

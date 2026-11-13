@@ -59,7 +59,9 @@ You do not need to read everything. Context sits next to what it describes:
   stories/AI-INSTRUCTIONS.md says how to implement each one, or push back on it.
 - **ai/recipes/** holds short how-tos; read the one a task needs. **ai/API.md** lists every library method, with its parameters.
 - **KNOWN-ISSUES.md** lists failures that are the site's fault, not the suite's. Do not "fix" them.
-- **crawl/** holds the crawl itself (the crawl (kept in the dock, not in this demo suite), the crawl (kept in the dock, not in this demo suite)) for details no class has.
+- **crawl/** holds the crawl itself (www.frontlineinsurance.com.crawl.json, www.frontlineinsurance.com.templates.json) for details no class has.
+  **crawl/pages/** has each page read, as the crawl saw it (its HTML: find elements there, and check
+  a locator with `suite locate frontlineinsurance-com-tests <page> "<locator>"` where Suite Builder is installed).
 - **File names are plain ASCII on purpose** (A-Z a-z 0-9 . _ - =), a page's as crawled too: the suite is zipped and
   unzipped on Windows, whose zip refuses some names. Name a file you add the same way: `pack` stops on one that is not.
 

@@ -29,6 +29,8 @@ Elements live in the page's Elements enum (`ProductElements` for ProductPage), i
   each button, field and dropdown the crawl saw, by the words a story would use, with a line to paste
   here. Its locator matched exactly one element when the crawl read the page. Rename the constant if
   the story calls it something else.
+- **Or find it in the page as crawled**: crawl/pages/<path>.html, then check what you write finds exactly
+  one element: `suite locate frontlineinsurance-com-tests <page> "<locator>"` where Suite Builder is installed.
 - **Otherwise take the locator from a saved page** (use-a-saved-page.md), never guess. Prefer, in order: a
   test id (`data-testid`, `data-test`), an id that is not generated (no digits soup), a name or
   label, the visible text, a short path from a stable parent. Avoid positions (`[3]`) and class

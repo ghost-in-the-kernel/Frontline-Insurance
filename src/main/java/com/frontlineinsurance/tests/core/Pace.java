@@ -9,22 +9,20 @@ import java.util.function.Supplier;
 import java.util.function.ToIntFunction;
 
 /**
- * The suite's pace, and its answer when the site says it is asked too often (HTTP 429). Built with --demo, for a site
- * the team does not own: 1000 ms before each test but the first and between the link report's requests, as the crawl
- * paced itself.
+ * The suite's pace, and its answer when the site says it is asked too often (HTTP 429). Built for the team's own site:
+ * no pause unless one is asked for (1000 on a site you don't own).
  * -DtestDelay (milliseconds), or the same in the pom's YOURS settings, sets the pause. The first test
- * does not wait. At a 429 the run stops: no further test or request is sent; the test that met it is not run to its end
- * (a skip, never a failure), the run's last lines and its report name it, the tests left are counted as not run, and
- * the run does not fail for the site's limit.
+ * does not wait. At a 429 the request is asked again after 3 s, then 9 s, then 27 s; a 429 to the last fails the test
+ * as any error does, it is not tried again, and the run goes on.
  */
 public final class Pace {
-    private static final long DELAY_MS = Long.parseLong(SiteConfig.value("testDelay", "1000"));
+    private static final long DELAY_MS = Long.parseLong(SiteConfig.value("testDelay", "0"));
     /**
      * At a 429, the whole run stops (a suite built with --demo: BaseTest stops it); otherwise the request is asked
      * again after each of RETRY_WAITS_MS.
      */
-    public static final boolean STOP_AT_TOO_MANY = true;
-    private static final long[] RETRY_WAITS_MS = {};
+    public static final boolean STOP_AT_TOO_MANY = false;
+    private static final long[] RETRY_WAITS_MS = {3000, 9000, 27000};
     /** Too many requests: the site limits how often this run may ask. */
     public static final int TOO_MANY = 429;
     private static boolean first = true;

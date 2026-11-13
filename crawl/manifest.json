@@ -6,19 +6,19 @@
     "models": "none"
   },
   "build": {
-    "commit": "7481c689d151ad3d27add5a4b4207dd8f3b96845",
+    "commit": "fdad4cb42274438e17035afa83dddae30100dc25",
     "branch": "main",
     "dirty": true
   },
   "framework": "playwright",
-  "generatedAt": "2026-11-13T01:57:19.151Z",
-  "command": "suite-builder build https://www.frontlineinsurance.com/ --fresh",
-  "templates": null,
-  "crawl": null,
+  "generatedAt": "2026-11-13T02:30:12.268Z",
+  "command": "suite-builder build https://www.frontlineinsurance.com/",
+  "templates": "crawl/www.frontlineinsurance.com.templates.json",
+  "crawl": "crawl/www.frontlineinsurance.com.crawl.json",
   "crawlFileSaved": "2026-11-13T01:57:17.770Z",
   "pages": {
-    "ship": "local",
-    "crawl": null,
+    "ship": "all",
+    "crawl": "73cb2aacbd172f89",
     "signedIn": false,
     "roles": []
   },
@@ -42,7 +42,5 @@
       "docked": "<Suite Builder's secrets folder, DOCK.md's last line>/<site>/admin.login"
     }
   ],
-  "classes": [],
-  "demo": true,
-  "origin": "https://www.frontlineinsurance.com"
+  "classes": []
 }

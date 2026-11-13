@@ -1,0 +1,4006 @@
+{
+  "tool": "suite-builder",
+  "kind": "templates",
+  "version": 2,
+  "startUrl": "https://www.frontlineinsurance.com/",
+  "origin": "https://www.frontlineinsurance.com",
+  "pagesRead": 40,
+  "menu": [
+    {
+      "to": "https://www.frontlineinsurance.com/find-an-agent",
+      "href": "/find-an-agent",
+      "text": "Find an Agent Navigate to Find an Agent",
+      "region": "header",
+      "seenOn": "https://www.frontlineinsurance.com/",
+      "template": "find-an-agent"
+    },
+    {
+      "to": "https://www.frontlineinsurance.com/quote",
+      "href": "/quote",
+      "text": "Get a Quote",
+      "region": "footer",
+      "seenOn": "https://www.frontlineinsurance.com/",
+      "template": "quote"
+    },
+    {
+      "to": "https://www.frontlineinsurance.com/home-services",
+      "href": "/home-services",
+      "text": "Home Services",
+      "region": "footer",
+      "seenOn": "https://www.frontlineinsurance.com/",
+      "template": "home-services"
+    },
+    {
+      "to": "https://www.frontlineinsurance.com/financial-rating",
+      "href": "/financial-rating",
+      "text": "Financial Rating",
+      "region": "footer",
+      "seenOn": "https://www.frontlineinsurance.com/",
+      "template": "financial-rating"
+    },
+    {
+      "to": "https://www.frontlineinsurance.com/rebranding",
+      "href": "/rebranding",
+      "text": "Rebranding",
+      "region": "footer",
+      "seenOn": "https://www.frontlineinsurance.com/",
+      "template": "rebranding"
+    },
+    {
+      "to": "https://www.frontlineinsurance.com/make-a-payment",
+      "href": "/make-a-payment",
+      "text": "Make a Payment",
+      "region": "footer",
+      "seenOn": "https://www.frontlineinsurance.com/",
+      "template": "make-apayment"
+    },
+    {
+      "to": "https://www.frontlineinsurance.com/emergency-services",
+      "href": "/emergency-services",
+      "text": "Emergency Services",
+      "region": "footer",
+      "seenOn": "https://www.frontlineinsurance.com/",
+      "template": "emergency-services"
+    },
+    {
+      "to": "https://www.frontlineinsurance.com/help-center",
+      "href": "/help-center",
+      "text": "Help Center",
+      "region": "footer",
+      "seenOn": "https://www.frontlineinsurance.com/",
+      "template": "help-center"
+    },
+    {
+      "to": "https://www.frontlineinsurance.com/contact-us",
+      "href": "/contact-us",
+      "text": "Contact Us",
+      "region": "footer",
+      "seenOn": "https://www.frontlineinsurance.com/",
+      "template": "contact-us"
+    },
+    {
+      "to": "https://www.frontlineinsurance.com/careers",
+      "href": "/careers",
+      "text": "Careers",
+      "region": "footer",
+      "seenOn": "https://www.frontlineinsurance.com/",
+      "template": "careers"
+    },
+    {
+      "to": "https://www.frontlineinsurance.com/contact-us/become-an-agent",
+      "href": "/contact-us/become-an-agent",
+      "text": "Become an Agent",
+      "region": "footer",
+      "seenOn": "https://www.frontlineinsurance.com/",
+      "template": "contact-us-become"
+    },
+    {
+      "to": "https://www.frontlineinsurance.com/terms-and-service",
+      "href": "/terms-and-service",
+      "text": "Terms & Service",
+      "region": "footer",
+      "seenOn": "https://www.frontlineinsurance.com/",
+      "template": "terms-and-service"
+    },
+    {
+      "to": "https://www.frontlineinsurance.com/privacy-policy",
+      "href": "/privacy-policy",
+      "text": "Privacy Policy",
+      "region": "footer",
+      "seenOn": "https://www.frontlineinsurance.com/",
+      "template": "privacy-policy"
+    },
+    {
+      "to": "https://www.frontlineinsurance.com/cookie-policy",
+      "href": "/cookie-policy",
+      "text": "Cookie Policy",
+      "region": "footer",
+      "seenOn": "https://www.frontlineinsurance.com/",
+      "template": "cookie-policy"
+    },
+    {
+      "to": "https://www.frontlineinsurance.com/",
+      "href": "/",
+      "text": "Frontline Insurance logo",
+      "region": "header",
+      "seenOn": "https://www.frontlineinsurance.com/privacy-policy",
+      "template": "home"
+    }
+  ],
+  "templates": [
+    {
+      "id": "home",
+      "name": "HomePage",
+      "urlPatterns": [
+        "/"
+      ],
+      "pages": [
+        "https://www.frontlineinsurance.com/"
+      ],
+      "repeated": false,
+      "knownUrls": 1,
+      "titlePattern": "Frontline Insurance | Home and Commercial Property Insurance",
+      "sharedHeadings": [
+        "Our Products",
+        "Smart, tailored solutions for the coverage you need",
+        "Frontline Reviews",
+        "“Best Home Insurance Company in Florida”"
+      ],
+      "inMenu": true,
+      "linksTo": [
+        {
+          "template": "product",
+          "count": 9,
+          "example": {
+            "from": "https://www.frontlineinsurance.com/",
+            "to": "https://www.frontlineinsurance.com/products/alabama",
+            "href": "/products/alabama",
+            "text": "Alabama"
+          }
+        },
+        {
+          "template": "our-story",
+          "count": 1,
+          "example": {
+            "from": "https://www.frontlineinsurance.com/",
+            "to": "https://www.frontlineinsurance.com/our-story",
+            "href": "/our-story",
+            "text": "Learn More About Our Story"
+          }
+        }
+      ],
+      "controls": [
+        {
+          "kind": "button",
+          "words": [
+            "Play About Us video"
+          ],
+          "region": "main",
+          "xpath": "//button[@aria-label='Play About Us video']",
+          "stability": "Strong",
+          "pages": 1,
+          "seenOn": "https://www.frontlineinsurance.com/"
+        },
+        {
+          "kind": "expander",
+          "words": [
+            "Read the video transcript"
+          ],
+          "region": "main",
+          "xpath": "//summary[normalize-space()='Read the video transcript']",
+          "stability": "OK",
+          "pages": 1,
+          "seenOn": "https://www.frontlineinsurance.com/"
+        }
+      ],
+      "why": {
+        "rule": "start-page",
+        "says": "the start page: always a page type of its own, since every test starts there"
+      }
+    },
+    {
+      "id": "privacy-policy",
+      "name": "PrivacyPolicyPage",
+      "urlPatterns": [
+        "/privacy-policy"
+      ],
+      "pages": [
+        "https://www.frontlineinsurance.com/privacy-policy"
+      ],
+      "repeated": false,
+      "knownUrls": 1,
+      "titlePattern": "Privacy Policy | Frontline Insurance",
+      "sharedHeadings": [
+        "PRIVACY POLICY",
+        "Our Commitment To Privacy",
+        "Collection of Information",
+        "The Website Is Not Intended For Use By Individuals Under 18 Years of Age",
+        "Security of Information",
+        "Use and Sharing of Information",
+        "Electronic Communications and Opting in and Opting Out",
+        "Cookies and Other Technologies",
+        "Other Website and Links",
+        "Notice of Consumer Report Practices",
+        "No Evidence of Coverage",
+        "Changes to the Privacy Policy",
+        "Frontline’s Contact Information"
+      ],
+      "inMenu": true,
+      "linksTo": [],
+      "why": {
+        "rule": "unlike-others",
+        "says": "no other page read is enough like it (the closest, /terms-and-service, shares 94% of its layout and 3% of its headings)"
+      }
+    },
+    {
+      "id": "product",
+      "name": "ProductPage",
+      "urlPatterns": [
+        "/products/*"
+      ],
+      "pages": [
+        "https://www.frontlineinsurance.com/products/virginia",
+        "https://www.frontlineinsurance.com/products/maryland",
+        "https://www.frontlineinsurance.com/products/delaware",
+        "https://www.frontlineinsurance.com/products/south-carolina",
+        "https://www.frontlineinsurance.com/products/alabama",
+        "https://www.frontlineinsurance.com/products/north-carolina",
+        "https://www.frontlineinsurance.com/products/georgia",
+        "https://www.frontlineinsurance.com/products/tennessee",
+        "https://www.frontlineinsurance.com/products/florida"
+      ],
+      "repeated": true,
+      "knownUrls": 9,
+      "titlePattern": "{name} Property Insurance | Frontline Insurance",
+      "sharedHeadings": [
+        "Trusted. Stable. Highly Rated.",
+        "Homeowners Insurance",
+        "High Value Insurance",
+        "Frequently Asked Questions",
+        "Frontline Reviews",
+        "Frontline Blog",
+        "Introducing FrontlineFlex™",
+        "What is FrontlineFlex?",
+        "Stepdown Deductible®: Make Claim-Free Years Count",
+        "Deductible Eliminator: Reduce Out-of-Pocket Expenses",
+        "Can you choose both FrontlineFlex endorsements?",
+        "What Current Stepdown Policyholders Should Know",
+        "Protecting When it Matters Most",
+        "Insurance that works the way it should.",
+        "High-Value Home Insurance: What Homeowners Need to Know",
+        "What Is High-Value Home Insurance?",
+        "Who Should Consider High-Value Home Insurance?",
+        "How to Choose the Right High-Value Home Insurance",
+        "Don’t Overlook Valuable Personal Property",
+        "Create a Home Inventory",
+        "Protecting What Matters Most",
+        "What Happens After You File a Homeowners Insurance Claim? A Step-by-Step Guide",
+        "Step 1: Report the Loss",
+        "Step 2: Your Claim is Assigned",
+        "Step 3: An Inspection May Be Scheduled",
+        "Step 4: Document the Damage",
+        "Step 5: Protect Your Property from Further Damage",
+        "Step 6: Before Hiring Restoration or Mitigation Services",
+        "Step 7: Keep Damaged Property When Possible",
+        "Step 8: Submit Requested Information Promptly",
+        "Tips for a Smoother Claims Experience",
+        "We’re Here to Help",
+        "Ready to Protect Your Property?"
+      ],
+      "inMenu": false,
+      "linksTo": [
+        {
+          "template": "blog-post",
+          "count": 36,
+          "example": {
+            "from": "https://www.frontlineinsurance.com/products/virginia",
+            "to": "https://www.frontlineinsurance.com/blog/step-into-savings-understanding-frontlines-stepdown-deductible-policy",
+            "href": "https://www.frontlineinsurance.com/blog/step-into-savings-understanding-frontlines-stepdown-deductible-policy",
+            "text": "Step Into Savings: Understanding Frontline’s Stepdown Deductible Policy"
+          }
+        },
+        {
+          "template": "blog",
+          "count": 9,
+          "example": {
+            "from": "https://www.frontlineinsurance.com/products/virginia",
+            "to": "https://www.frontlineinsurance.com/blog",
+            "href": "/blog",
+            "text": "View All Blog Posts"
+          }
+        },
+        {
+          "template": "agreements",
+          "count": 1,
+          "example": {
+            "from": "https://www.frontlineinsurance.com/products/florida",
+            "to": "https://www.frontlineinsurance.com/agreements",
+            "href": "/agreements",
+            "text": "View Agreements"
+          }
+        }
+      ],
+      "controls": [
+        {
+          "kind": "text field",
+          "words": [
+            "Zip Code",
+            "zipCode"
+          ],
+          "region": "main",
+          "form": "a form: Find Agents",
+          "xpath": "//input[@id='zipCode']",
+          "stability": "Strong",
+          "pages": 9,
+          "seenOn": "https://www.frontlineinsurance.com/products/virginia"
+        },
+        {
+          "kind": "button",
+          "words": [
+            "Find Agents"
+          ],
+          "region": "main",
+          "form": "a form: Find Agents",
+          "xpath": "//button[normalize-space()='Find Agents']",
+          "stability": "OK",
+          "pages": 9,
+          "seenOn": "https://www.frontlineinsurance.com/products/virginia"
+        },
+        {
+          "kind": "button",
+          "words": [
+            "Use My Location"
+          ],
+          "region": "main",
+          "xpath": "//button[normalize-space()='Use My Location']",
+          "stability": "OK",
+          "pages": 9,
+          "seenOn": "https://www.frontlineinsurance.com/products/virginia"
+        },
+        {
+          "kind": "tab",
+          "words": [
+            "All"
+          ],
+          "region": "main",
+          "xpath": "//button[normalize-space()='All']",
+          "stability": "OK",
+          "pages": 6,
+          "seenOn": "https://www.frontlineinsurance.com/products/virginia"
+        },
+        {
+          "kind": "tab",
+          "words": [
+            "Homeowners"
+          ],
+          "region": "main",
+          "xpath": "//button[normalize-space()='Homeowners']",
+          "stability": "OK",
+          "pages": 6,
+          "seenOn": "https://www.frontlineinsurance.com/products/virginia"
+        },
+        {
+          "kind": "tab",
+          "words": [
+            "Commercial"
+          ],
+          "region": "main",
+          "xpath": "//button[normalize-space()='Commercial']",
+          "stability": "OK",
+          "pages": 6,
+          "seenOn": "https://www.frontlineinsurance.com/products/virginia"
+        },
+        {
+          "kind": "text field",
+          "words": [
+            "Your Estimated Home Value",
+            "$0.00"
+          ],
+          "region": "main",
+          "form": "a form",
+          "filled": true,
+          "value": "$350,000",
+          "xpath": "//input[@id='homeValue']",
+          "stability": "Strong",
+          "pages": 6,
+          "seenOn": "https://www.frontlineinsurance.com/products/virginia"
+        },
+        {
+          "kind": "radio",
+          "words": [
+            "1% of home value"
+          ],
+          "region": "main",
+          "form": "a form",
+          "xpath": "//button[normalize-space()='1% of home value']",
+          "stability": "OK",
+          "pages": 6,
+          "seenOn": "https://www.frontlineinsurance.com/products/virginia"
+        },
+        {
+          "kind": "radio",
+          "words": [
+            "2% of home value"
+          ],
+          "region": "main",
+          "form": "a form",
+          "xpath": "//button[normalize-space()='2% of home value']",
+          "stability": "OK",
+          "pages": 6,
+          "seenOn": "https://www.frontlineinsurance.com/products/virginia"
+        },
+        {
+          "kind": "slider",
+          "words": [],
+          "region": "main",
+          "form": "a form",
+          "xpath": "(//form[@id='stepdown-calculator-form']//span)[5]",
+          "stability": "Fragile",
+          "pages": 6,
+          "seenOn": "https://www.frontlineinsurance.com/products/virginia"
+        },
+        {
+          "kind": "button",
+          "words": [
+            "How does the hurricane deductible work?"
+          ],
+          "region": "main",
+          "xpath": "//button[normalize-space()='How does the hurricane deductible work?']",
+          "stability": "OK",
+          "pages": 9,
+          "seenOn": "https://www.frontlineinsurance.com/products/virginia"
+        },
+        {
+          "kind": "button",
+          "words": [
+            "What does homeowners insurance cover?"
+          ],
+          "region": "main",
+          "xpath": "//button[normalize-space()='What does homeowners insurance cover?']",
+          "stability": "OK",
+          "pages": 9,
+          "seenOn": "https://www.frontlineinsurance.com/products/virginia"
+        },
+        {
+          "kind": "button",
+          "words": [
+            "How do I file a claim after a storm?"
+          ],
+          "region": "main",
+          "xpath": "//button[normalize-space()='How do I file a claim after a storm?']",
+          "stability": "OK",
+          "pages": 9,
+          "seenOn": "https://www.frontlineinsurance.com/products/virginia"
+        },
+        {
+          "kind": "button",
+          "words": [
+            "How quickly can I get coverage?"
+          ],
+          "region": "main",
+          "xpath": "//button[normalize-space()='How quickly can I get coverage?']",
+          "stability": "OK",
+          "pages": 9,
+          "seenOn": "https://www.frontlineinsurance.com/products/virginia"
+        },
+        {
+          "kind": "button",
+          "words": [
+            "Can I get a discount on my premium?"
+          ],
+          "region": "main",
+          "xpath": "//button[normalize-space()='Can I get a discount on my premium?']",
+          "stability": "OK",
+          "pages": 9,
+          "seenOn": "https://www.frontlineinsurance.com/products/virginia"
+        },
+        {
+          "kind": "button",
+          "words": [
+            "Do I need a separate flood insurance policy?"
+          ],
+          "region": "main",
+          "xpath": "//button[starts-with(normalize-space(),'Do I need a separate flood insurance')]",
+          "stability": "OK",
+          "pages": 9,
+          "seenOn": "https://www.frontlineinsurance.com/products/virginia"
+        },
+        {
+          "kind": "button",
+          "words": [
+            "Do I need additional coverage for my valuable items?"
+          ],
+          "region": "main",
+          "xpath": "//button[starts-with(normalize-space(),'Do I need additional coverage for my')]",
+          "stability": "OK",
+          "pages": 9,
+          "seenOn": "https://www.frontlineinsurance.com/products/virginia"
+        }
+      ],
+      "why": {
+        "rule": "family-by-address",
+        "says": "its 9 pages read look alike (layout 85% the same, headings 80%) and share the address pattern /products/*; joined by: the headings agree, with some layout shared (36 comparisons)",
+        "joinedBy": [
+          {
+            "rule": "headings-agree",
+            "pairs": 36
+          }
+        ]
+      }
+    },
+    {
+      "id": "cookie-policy",
+      "name": "CookiePolicyPage",
+      "urlPatterns": [
+        "/cookie-policy"
+      ],
+      "pages": [
+        "https://www.frontlineinsurance.com/cookie-policy"
+      ],
+      "repeated": false,
+      "knownUrls": 1,
+      "titlePattern": "Cookie Policy | Frontline Insurance",
+      "sharedHeadings": [
+        "COOKIE POLICY",
+        "What This Policy Covers",
+        "What Cookies And Similar Technologies Are",
+        "The Categories We Use",
+        "Cookies We Use",
+        "Strictly Necessary (always active)",
+        "Name",
+        "Provider",
+        "Purpose",
+        "Duration",
+        "Analytics & Performance",
+        "Advertising & Social",
+        "Session Replay And Heatmaps",
+        "Advertising, Social Media, And Cross-Site Tracking",
+        "Your Choices",
+        "Changing Your Cookie Preferences On This Site",
+        "Global Privacy Control And Do Not Track",
+        "Browser And Device Controls",
+        "Industry Opt-Out Tools",
+        "Your State Privacy Rights",
+        "Cookies Set By Third Parties",
+        "Changes To This Cookie Policy",
+        "How To Contact Us"
+      ],
+      "inMenu": true,
+      "linksTo": [],
+      "controls": [
+        {
+          "kind": "button",
+          "words": [
+            "COOKIE PREFERENCES"
+          ],
+          "region": "main",
+          "xpath": "//div[div/h1[normalize-space()='COOKIE POLICY']]//button[normalize-space()='Cookie Preferences']",
+          "stability": "OK",
+          "pages": 1,
+          "seenOn": "https://www.frontlineinsurance.com/cookie-policy"
+        },
+        {
+          "kind": "button",
+          "words": [
+            "COOKIE PREFERENCES"
+          ],
+          "region": "footer",
+          "xpath": "//div[a[normalize-space()='Terms & Service']]//button[normalize-space()='Cookie Preferences']",
+          "stability": "OK",
+          "pages": 1,
+          "seenOn": "https://www.frontlineinsurance.com/cookie-policy"
+        }
+      ],
+      "why": {
+        "rule": "unlike-others",
+        "says": "no other page read is enough like it (the closest, /electronic-document-delivery, shares 84% of its layout and 0% of its headings)"
+      }
+    },
+    {
+      "id": "find-an-agent",
+      "name": "FindAnAgentPage",
+      "urlPatterns": [
+        "/find-an-agent"
+      ],
+      "pages": [
+        "https://www.frontlineinsurance.com/find-an-agent"
+      ],
+      "repeated": false,
+      "knownUrls": 1,
+      "titlePattern": "Find an Agent | Frontline Insurance",
+      "sharedHeadings": [
+        "Find a Local Agent",
+        "Get personalized guidance from a licensed insurance professional.",
+        "Your Zip Code"
+      ],
+      "inMenu": true,
+      "linksTo": [],
+      "controls": [
+        {
+          "kind": "text field",
+          "words": [
+            "Your Zip Code",
+            "Enter your Zip Code...",
+            "zipCode"
+          ],
+          "region": "main",
+          "form": "a form",
+          "xpath": "//input[@id='zipCode']",
+          "stability": "Strong",
+          "pages": 1,
+          "seenOn": "https://www.frontlineinsurance.com/find-an-agent"
+        },
+        {
+          "kind": "button",
+          "words": [
+            "Search by Zip Code"
+          ],
+          "region": "main",
+          "form": "a form",
+          "xpath": "//button[normalize-space()='Search by Zip Code']",
+          "stability": "OK",
+          "pages": 1,
+          "seenOn": "https://www.frontlineinsurance.com/find-an-agent"
+        },
+        {
+          "kind": "button",
+          "words": [
+            "Use My Current Location"
+          ],
+          "region": "main",
+          "form": "a form",
+          "xpath": "//button[normalize-space()='Use My Current Location']",
+          "stability": "OK",
+          "pages": 1,
+          "seenOn": "https://www.frontlineinsurance.com/find-an-agent"
+        }
+      ],
+      "why": {
+        "rule": "unlike-others",
+        "says": "no other page read is enough like it (the closest, /agreements, shares 62% of its layout)"
+      }
+    },
+    {
+      "id": "quote",
+      "name": "QuotePage",
+      "urlPatterns": [
+        "/quote"
+      ],
+      "pages": [
+        "https://www.frontlineinsurance.com/quote"
+      ],
+      "repeated": false,
+      "knownUrls": 1,
+      "titlePattern": "Get a Quote | Frontline Insurance",
+      "sharedHeadings": [
+        "Enter a Florida Address You Want to Quote",
+        "Let's Confirm a Few Basics",
+        "Quote Terms"
+      ],
+      "inMenu": true,
+      "linksTo": [
+        {
+          "template": "electronic-document-delivery",
+          "count": 1,
+          "example": {
+            "from": "https://www.frontlineinsurance.com/quote",
+            "to": "https://www.frontlineinsurance.com/electronic-document-delivery",
+            "href": "/electronic-document-delivery",
+            "text": "E-Sign Agreement",
+            "newTab": true
+          }
+        }
+      ],
+      "controls": [
+        {
+          "kind": "text field",
+          "words": [
+            "Enter a Florida Address You Want to Quote",
+            "Enter address...",
+            "address"
+          ],
+          "region": "main",
+          "form": "a form",
+          "xpath": "//input[@name='address']",
+          "stability": "Strong",
+          "pages": 1,
+          "seenOn": "https://www.frontlineinsurance.com/quote"
+        },
+        {
+          "kind": "checkbox",
+          "words": [],
+          "region": "main",
+          "form": "a form",
+          "xpath": "//button[@id='occupancyAndUsage']",
+          "stability": "Strong",
+          "pages": 1,
+          "seenOn": "https://www.frontlineinsurance.com/quote"
+        },
+        {
+          "kind": "checkbox",
+          "words": [],
+          "region": "main",
+          "form": "a form",
+          "xpath": "//button[@id='acceptedTerms']",
+          "stability": "Strong",
+          "pages": 1,
+          "seenOn": "https://www.frontlineinsurance.com/quote"
+        },
+        {
+          "kind": "button",
+          "words": [
+            "Start My Quote"
+          ],
+          "region": "main",
+          "form": "a form",
+          "xpath": "//button[normalize-space()='Start My Quote']",
+          "stability": "OK",
+          "pages": 1,
+          "seenOn": "https://www.frontlineinsurance.com/quote"
+        }
+      ],
+      "why": {
+        "rule": "unlike-others",
+        "says": "no other page read is enough like it (the closest, /agreements, shares 58% of its layout)"
+      }
+    },
+    {
+      "id": "home-services",
+      "name": "HomeServicesPage",
+      "urlPatterns": [
+        "/home-services"
+      ],
+      "pages": [
+        "https://www.frontlineinsurance.com/home-services"
+      ],
+      "repeated": false,
+      "knownUrls": 1,
+      "titlePattern": "Home Services | Frontline Insurance",
+      "sharedHeadings": [
+        "Home Services",
+        "Losses happen, and when they do, we are here for you and your insurance needs.",
+        "Home Checkup",
+        "Option 1: Self-Guided Checkup",
+        "Option 2: In-Person Checkup",
+        "Home Solutions",
+        "Introducing Home Solutions",
+        "Guided by a Dedicated Advocate",
+        "Get Reimbursed for Eligible Repairs",
+        "Home Care Facts",
+        "A small part can prevent a big claim"
+      ],
+      "inMenu": true,
+      "linksTo": [
+        {
+          "template": "blog-post",
+          "count": 1,
+          "example": {
+            "from": "https://www.frontlineinsurance.com/home-services",
+            "to": "https://www.frontlineinsurance.com/blog/6a8c98aaad2ac6c5fe47c35b",
+            "href": "/blog/6a8c98aaad2ac6c5fe47c35b",
+            "text": "Read About Home Solutions"
+          }
+        }
+      ],
+      "why": {
+        "rule": "unlike-others",
+        "says": "no other page read is enough like it (the closest, /financial-rating, shares 47% of its layout and 8% of its headings)"
+      }
+    },
+    {
+      "id": "financial-rating",
+      "name": "FinancialRatingPage",
+      "urlPatterns": [
+        "/financial-rating"
+      ],
+      "pages": [
+        "https://www.frontlineinsurance.com/financial-rating"
+      ],
+      "repeated": false,
+      "knownUrls": 1,
+      "titlePattern": "Financial Rating | Frontline Insurance",
+      "sharedHeadings": [
+        "Financial Rating",
+        "Rated Companies"
+      ],
+      "inMenu": true,
+      "linksTo": [],
+      "controls": [
+        {
+          "kind": "button",
+          "words": [
+            "BBB+"
+          ],
+          "region": "main",
+          "xpath": "//button[normalize-space()='BBB+']",
+          "stability": "OK",
+          "pages": 1,
+          "seenOn": "https://www.frontlineinsurance.com/financial-rating"
+        }
+      ],
+      "why": {
+        "rule": "unlike-others",
+        "says": "no other page read is enough like it (the closest, /emergency-services, shares 36% of its layout and 25% of its headings)"
+      }
+    },
+    {
+      "id": "rebranding",
+      "name": "RebrandingPage",
+      "urlPatterns": [
+        "/rebranding"
+      ],
+      "pages": [
+        "https://www.frontlineinsurance.com/rebranding"
+      ],
+      "repeated": false,
+      "knownUrls": 1,
+      "titlePattern": "Rebranding | Frontline Insurance",
+      "sharedHeadings": [
+        "Stable, Trusted and Ready for Your Future",
+        "Standing Strong Since 1998.",
+        "1998",
+        "2008",
+        "2013",
+        "2019",
+        "2022",
+        "2024/26",
+        "Future Ready (2026 & Beyond)",
+        "Trusted. Stable. Future Ready.",
+        "Our Promises to You",
+        "Stability",
+        "Transparency",
+        "Responsive Claims",
+        "People First",
+        "Making things better for over 25 years.",
+        "Frequently Asked Questions",
+        "Same Products You Trust",
+        "Homeowners Insurance",
+        "Condo Insurance",
+        "High Value Homes",
+        "Stepdown Deductible",
+        "Reciprocal Exchange",
+        "Builder's Risk",
+        "Rental Properties",
+        "Flood Insurance",
+        "Commercial Property",
+        "Wind & Hail"
+      ],
+      "inMenu": true,
+      "linksTo": [],
+      "controls": [
+        {
+          "kind": "button",
+          "words": [
+            "Learn More"
+          ],
+          "region": "main",
+          "xpath": "//button[normalize-space()='Learn More']",
+          "stability": "OK",
+          "pages": 1,
+          "seenOn": "https://www.frontlineinsurance.com/rebranding"
+        },
+        {
+          "kind": "button",
+          "words": [
+            "Why did Frontline Insurance rebrand?"
+          ],
+          "region": "main",
+          "xpath": "//button[normalize-space()='Why did Frontline Insurance rebrand?']",
+          "stability": "OK",
+          "pages": 1,
+          "seenOn": "https://www.frontlineinsurance.com/rebranding"
+        },
+        {
+          "kind": "button",
+          "words": [
+            "Does my policy or coverage change?"
+          ],
+          "region": "main",
+          "xpath": "//button[normalize-space()='Does my policy or coverage change?']",
+          "stability": "OK",
+          "pages": 1,
+          "seenOn": "https://www.frontlineinsurance.com/rebranding"
+        },
+        {
+          "kind": "button",
+          "words": [
+            "Do I need to do anything?"
+          ],
+          "region": "main",
+          "xpath": "//button[normalize-space()='Do I need to do anything?']",
+          "stability": "OK",
+          "pages": 1,
+          "seenOn": "https://www.frontlineinsurance.com/rebranding"
+        },
+        {
+          "kind": "button",
+          "words": [
+            "Will the way I contact you change?"
+          ],
+          "region": "main",
+          "xpath": "//button[normalize-space()='Will the way I contact you change?']",
+          "stability": "OK",
+          "pages": 1,
+          "seenOn": "https://www.frontlineinsurance.com/rebranding"
+        },
+        {
+          "kind": "button",
+          "words": [
+            "Where can I learn more?"
+          ],
+          "region": "main",
+          "xpath": "//button[normalize-space()='Where can I learn more?']",
+          "stability": "OK",
+          "pages": 1,
+          "seenOn": "https://www.frontlineinsurance.com/rebranding"
+        }
+      ],
+      "why": {
+        "rule": "unlike-others",
+        "says": "no other page read is enough like it (the closest, /blog/does-homeowners-insurance-cover-my-college-student-what-parents-should-know, shares 48% of its layout and 3% of its headings)"
+      }
+    },
+    {
+      "id": "make-apayment",
+      "name": "MakeAPaymentPage",
+      "urlPatterns": [
+        "/make-a-payment"
+      ],
+      "pages": [
+        "https://www.frontlineinsurance.com/make-a-payment"
+      ],
+      "repeated": false,
+      "knownUrls": 1,
+      "titlePattern": "Make a Payment | Frontline Insurance",
+      "sharedHeadings": [
+        "Make a Payment"
+      ],
+      "inMenu": true,
+      "linksTo": [],
+      "controls": [
+        {
+          "kind": "button",
+          "words": [
+            "Commercial Payments"
+          ],
+          "region": "main",
+          "xpath": "//button[normalize-space()='Commercial Payments']",
+          "stability": "OK",
+          "pages": 1,
+          "seenOn": "https://www.frontlineinsurance.com/make-a-payment"
+        },
+        {
+          "kind": "button",
+          "words": [
+            "View our payment addresses"
+          ],
+          "region": "main",
+          "xpath": "//button[normalize-space()='View our payment addresses']",
+          "stability": "OK",
+          "pages": 1,
+          "seenOn": "https://www.frontlineinsurance.com/make-a-payment"
+        }
+      ],
+      "why": {
+        "rule": "unlike-others",
+        "says": "no other page read is enough like it (the closest, /agreements, shares 68% of its layout)"
+      }
+    },
+    {
+      "id": "emergency-services",
+      "name": "EmergencyServicesPage",
+      "urlPatterns": [
+        "/emergency-services"
+      ],
+      "pages": [
+        "https://www.frontlineinsurance.com/emergency-services"
+      ],
+      "repeated": false,
+      "knownUrls": 1,
+      "titlePattern": "Emergency Services | Frontline Insurance",
+      "sharedHeadings": [
+        "Emergency Services",
+        "Enter your state and county to view recommended contractors.",
+        "State"
+      ],
+      "inMenu": true,
+      "linksTo": [],
+      "controls": [
+        {
+          "kind": "button",
+          "words": [
+            "Map camera controls"
+          ],
+          "region": "main",
+          "xpath": "//button[@aria-label='Map camera controls']",
+          "stability": "Strong",
+          "pages": 1,
+          "seenOn": "https://www.frontlineinsurance.com/emergency-services"
+        },
+        {
+          "kind": "button",
+          "words": [
+            "Keyboard shortcuts"
+          ],
+          "region": "main",
+          "xpath": "//button[normalize-space()='Keyboard shortcuts']",
+          "stability": "OK",
+          "pages": 1,
+          "seenOn": "https://www.frontlineinsurance.com/emergency-services"
+        },
+        {
+          "kind": "dropdown",
+          "words": [
+            "Select a state"
+          ],
+          "region": "main",
+          "form": "a form",
+          "xpath": "//button[@id='state']",
+          "stability": "Strong",
+          "pages": 1,
+          "seenOn": "https://www.frontlineinsurance.com/emergency-services"
+        }
+      ],
+      "why": {
+        "rule": "unlike-others",
+        "says": "no other page read is enough like it (the closest, /financial-rating, shares 36% of its layout and 25% of its headings)"
+      }
+    },
+    {
+      "id": "help-center",
+      "name": "HelpCenterPage",
+      "urlPatterns": [
+        "/help-center"
+      ],
+      "pages": [
+        "https://www.frontlineinsurance.com/help-center"
+      ],
+      "repeated": false,
+      "knownUrls": 1,
+      "titlePattern": "Help Center | Frontline Insurance",
+      "sharedHeadings": [
+        "Help Center",
+        "Find help through our FAQs and guides.",
+        "Frequently Asked Questions",
+        "Search FAQs",
+        "Video Tutorials",
+        "Search Tutorials",
+        "Create an Account",
+        "Policy Change",
+        "File a Claim",
+        "Make a Payment",
+        "Account Change",
+        "Document Upload",
+        "Find an Agent",
+        "Add a Policy",
+        "Contact Us",
+        "Application Settings",
+        "Still need help?"
+      ],
+      "inMenu": true,
+      "linksTo": [],
+      "controls": [
+        {
+          "kind": "text field",
+          "words": [
+            "Search FAQs",
+            "Start typing to begin searching..."
+          ],
+          "region": "main",
+          "xpath": "//input[@id='faq-search']",
+          "stability": "Strong",
+          "pages": 1,
+          "seenOn": "https://www.frontlineinsurance.com/help-center"
+        },
+        {
+          "kind": "button",
+          "words": [
+            "BILLING"
+          ],
+          "region": "main",
+          "xpath": "//button[normalize-space()='Billing']",
+          "stability": "OK",
+          "pages": 1,
+          "seenOn": "https://www.frontlineinsurance.com/help-center"
+        },
+        {
+          "kind": "button",
+          "words": [
+            "UNDERWRITING"
+          ],
+          "region": "main",
+          "xpath": "//button[normalize-space()='Underwriting']",
+          "stability": "OK",
+          "pages": 1,
+          "seenOn": "https://www.frontlineinsurance.com/help-center"
+        },
+        {
+          "kind": "button",
+          "words": [
+            "INSPECTIONS"
+          ],
+          "region": "main",
+          "xpath": "//button[normalize-space()='Inspections']",
+          "stability": "OK",
+          "pages": 1,
+          "seenOn": "https://www.frontlineinsurance.com/help-center"
+        },
+        {
+          "kind": "button",
+          "words": [
+            "TECH SUPPORT"
+          ],
+          "region": "main",
+          "xpath": "//button[normalize-space()='Tech Support']",
+          "stability": "OK",
+          "pages": 1,
+          "seenOn": "https://www.frontlineinsurance.com/help-center"
+        },
+        {
+          "kind": "button",
+          "words": [
+            "CLAIMS"
+          ],
+          "region": "main",
+          "xpath": "//button[normalize-space()='claims']",
+          "stability": "OK",
+          "pages": 1,
+          "seenOn": "https://www.frontlineinsurance.com/help-center"
+        },
+        {
+          "kind": "tab",
+          "words": [
+            "Mobile App"
+          ],
+          "region": "main",
+          "xpath": "//button[normalize-space()='Mobile App']",
+          "stability": "OK",
+          "pages": 1,
+          "seenOn": "https://www.frontlineinsurance.com/help-center"
+        },
+        {
+          "kind": "tab",
+          "words": [
+            "Customer Portal"
+          ],
+          "region": "main",
+          "xpath": "//button[normalize-space()='Customer Portal']",
+          "stability": "OK",
+          "pages": 1,
+          "seenOn": "https://www.frontlineinsurance.com/help-center"
+        },
+        {
+          "kind": "tab",
+          "words": [
+            "Website"
+          ],
+          "region": "main",
+          "xpath": "//button[normalize-space()='Website']",
+          "stability": "OK",
+          "pages": 1,
+          "seenOn": "https://www.frontlineinsurance.com/help-center"
+        },
+        {
+          "kind": "text field",
+          "words": [
+            "Search Tutorials",
+            "Search our video tutorials..."
+          ],
+          "region": "main",
+          "xpath": "//input[@id='video-search']",
+          "stability": "Strong",
+          "pages": 1,
+          "seenOn": "https://www.frontlineinsurance.com/help-center"
+        }
+      ],
+      "why": {
+        "rule": "unlike-others",
+        "says": "no other page read is enough like it (the closest, /privacy-policy, shares 56% of its layout and 3% of its headings)"
+      }
+    },
+    {
+      "id": "contact-us",
+      "name": "ContactUsPage",
+      "urlPatterns": [
+        "/contact-us"
+      ],
+      "pages": [
+        "https://www.frontlineinsurance.com/contact-us"
+      ],
+      "repeated": false,
+      "knownUrls": 1,
+      "titlePattern": "Contact Us | Frontline Insurance",
+      "sharedHeadings": [
+        "Contact Us",
+        "We’re committed to exceptional customer service.",
+        "How Can We Help You?",
+        "First Name",
+        "Last Name",
+        "Policy Number",
+        "Email Address",
+        "Phone Number",
+        "Message"
+      ],
+      "inMenu": true,
+      "linksTo": [],
+      "controls": [
+        {
+          "kind": "dropdown",
+          "words": [
+            "Please select how we can help you."
+          ],
+          "region": "main",
+          "form": "a form",
+          "xpath": "//button[@id='howCanWeHelp']",
+          "stability": "Strong",
+          "pages": 1,
+          "seenOn": "https://www.frontlineinsurance.com/contact-us"
+        },
+        {
+          "kind": "text field",
+          "words": [
+            "First Name",
+            "firstName"
+          ],
+          "region": "main",
+          "form": "a form",
+          "xpath": "//input[@id='firstName']",
+          "stability": "Strong",
+          "pages": 1,
+          "seenOn": "https://www.frontlineinsurance.com/contact-us"
+        },
+        {
+          "kind": "text field",
+          "words": [
+            "Last Name",
+            "lastName"
+          ],
+          "region": "main",
+          "form": "a form",
+          "xpath": "//input[@id='lastName']",
+          "stability": "Strong",
+          "pages": 1,
+          "seenOn": "https://www.frontlineinsurance.com/contact-us"
+        },
+        {
+          "kind": "text field",
+          "words": [
+            "Policy Number",
+            "policyNumber"
+          ],
+          "region": "main",
+          "form": "a form",
+          "xpath": "//input[@id='policyNumber']",
+          "stability": "Strong",
+          "pages": 1,
+          "seenOn": "https://www.frontlineinsurance.com/contact-us"
+        },
+        {
+          "kind": "email field",
+          "words": [
+            "Email Address",
+            "email"
+          ],
+          "region": "main",
+          "form": "a form",
+          "xpath": "//input[@id='email']",
+          "stability": "Strong",
+          "pages": 1,
+          "seenOn": "https://www.frontlineinsurance.com/contact-us"
+        },
+        {
+          "kind": "tel field",
+          "words": [
+            "Phone Number"
+          ],
+          "region": "main",
+          "form": "a form",
+          "xpath": "//input[@id='phoneNumber']",
+          "stability": "Strong",
+          "pages": 1,
+          "seenOn": "https://www.frontlineinsurance.com/contact-us"
+        },
+        {
+          "kind": "text area",
+          "words": [
+            "Message",
+            "Type your message..."
+          ],
+          "region": "main",
+          "form": "a form",
+          "xpath": "//textarea[@id='message']",
+          "stability": "Strong",
+          "pages": 1,
+          "seenOn": "https://www.frontlineinsurance.com/contact-us"
+        },
+        {
+          "kind": "button",
+          "words": [
+            "SUBMIT REQUEST"
+          ],
+          "region": "main",
+          "form": "a form",
+          "xpath": "//button[normalize-space()='Submit Request']",
+          "stability": "OK",
+          "pages": 1,
+          "seenOn": "https://www.frontlineinsurance.com/contact-us"
+        },
+        {
+          "kind": "button",
+          "words": [
+            "Call us"
+          ],
+          "region": "main",
+          "xpath": "//button[@aria-label='Call us']",
+          "stability": "Strong",
+          "pages": 1,
+          "seenOn": "https://www.frontlineinsurance.com/contact-us"
+        },
+        {
+          "kind": "button",
+          "words": [
+            "Write to us"
+          ],
+          "region": "main",
+          "xpath": "//button[@aria-label='Write to us']",
+          "stability": "Strong",
+          "pages": 1,
+          "seenOn": "https://www.frontlineinsurance.com/contact-us"
+        }
+      ],
+      "why": {
+        "rule": "unlike-others",
+        "says": "no other page read is enough like it (the closest, /contact-us/become-an-agent, shares 61% of its layout and 11% of its headings)"
+      }
+    },
+    {
+      "id": "careers",
+      "name": "CareersPage",
+      "urlPatterns": [
+        "/careers"
+      ],
+      "pages": [
+        "https://www.frontlineinsurance.com/careers"
+      ],
+      "repeated": false,
+      "knownUrls": 1,
+      "titlePattern": "Careers | Frontline Insurance",
+      "sharedHeadings": [
+        "Careers at Frontline",
+        "Build a career that makes a difference",
+        "Why Frontline Insurance?",
+        "Our Company Culture",
+        "Join our fast growing team"
+      ],
+      "inMenu": true,
+      "linksTo": [],
+      "why": {
+        "rule": "unlike-others",
+        "says": "no other page read is enough like it (the closest, /agreements, shares 50% of its layout)"
+      }
+    },
+    {
+      "id": "terms-and-service",
+      "name": "TermsAndServicePage",
+      "urlPatterns": [
+        "/terms-and-service"
+      ],
+      "pages": [
+        "https://www.frontlineinsurance.com/terms-and-service"
+      ],
+      "repeated": false,
+      "knownUrls": 1,
+      "titlePattern": "Terms & Service | Frontline Insurance",
+      "sharedHeadings": [
+        "TERMS & SERVICE",
+        "Terms of Use",
+        "About the Frontline Technology",
+        "Artificial Intelligence Tools",
+        "You Must Be At Least 18 Years of Age",
+        "Changes to the Frontline Technology and/or Terms of Use",
+        "Privacy Policy",
+        "Submitting Payments",
+        "Products or Services Offered",
+        "Insurance Quotes, Coverages, and Online Claim Submissions",
+        "Account Security",
+        "Your Responsibility",
+        "Intellectual Property",
+        "Linking to the Website and Links from the Website",
+        "Limitation of Liability and Disclaimer of Warranties",
+        "Limitation of Damages and Remedies",
+        "Termination",
+        "Indemnity",
+        "No Extraterritoriality",
+        "Jurisdiction and Choice of Law",
+        "Assignment",
+        "Headings",
+        "Severability and Non-Waiver",
+        "Survivability and Reservation of Rights",
+        "No Modification",
+        "Frontline’s Contact Information"
+      ],
+      "inMenu": true,
+      "linksTo": [],
+      "why": {
+        "rule": "unlike-others",
+        "says": "no other page read is enough like it (the closest, /electronic-document-delivery, shares 97% of its layout and 0% of its headings)"
+      }
+    },
+    {
+      "id": "contact-us-become",
+      "name": "ContactUsBecomePage",
+      "urlPatterns": [
+        "/contact-us/become-an-agent"
+      ],
+      "pages": [
+        "https://www.frontlineinsurance.com/contact-us/become-an-agent"
+      ],
+      "repeated": false,
+      "knownUrls": 1,
+      "titlePattern": "Become an Agent | Frontline Insurance",
+      "sharedHeadings": [
+        "Become a Frontline Agent",
+        "Agency Name",
+        "Agency NPN Number",
+        "Physical Location Address",
+        "No PO boxes",
+        "State",
+        "County",
+        "City",
+        "Zip Code",
+        "Date Agency Established",
+        "Email Address",
+        "Onboarding Contact Email",
+        "Contact Person",
+        "First Name",
+        "Last Name",
+        "Title",
+        "Phone Number",
+        "What line of business is the agency interested in?",
+        "Homeowners",
+        "Commercial",
+        "Does this agency have any additional locations?",
+        "YES",
+        "NO",
+        "Agency Size",
+        "Total Agency Premium Volume",
+        "Personal Lines Premium Volume",
+        "Commercial Lines Premium Volume",
+        "Any Error & Omissions claims for the agency or current agency personnel?",
+        "Are you a member of any professional insurance associations or societies?",
+        "In the last 36 months, has the agency been terminated by any homeowner carriers?",
+        "Comments"
+      ],
+      "inMenu": true,
+      "linksTo": [],
+      "controls": [
+        {
+          "kind": "text field",
+          "words": [
+            "Agency Name",
+            "agencyName"
+          ],
+          "region": "main",
+          "form": "What line of business is the agency interested in?",
+          "xpath": "//input[@id='agencyName']",
+          "stability": "Strong",
+          "pages": 1,
+          "seenOn": "https://www.frontlineinsurance.com/contact-us/become-an-agent"
+        },
+        {
+          "kind": "text field",
+          "words": [
+            "Agency NPN Number",
+            "agencyNpnNumber"
+          ],
+          "region": "main",
+          "form": "What line of business is the agency interested in?",
+          "required": true,
+          "xpath": "//input[@id='agencyNpnNumber']",
+          "stability": "Strong",
+          "pages": 1,
+          "seenOn": "https://www.frontlineinsurance.com/contact-us/become-an-agent"
+        },
+        {
+          "kind": "text field",
+          "words": [
+            "Physical Location Address",
+            "No PO boxes",
+            "locationAddress"
+          ],
+          "region": "main",
+          "form": "What line of business is the agency interested in?",
+          "xpath": "//input[@id='locationAddress']",
+          "stability": "Strong",
+          "pages": 1,
+          "seenOn": "https://www.frontlineinsurance.com/contact-us/become-an-agent"
+        },
+        {
+          "kind": "dropdown",
+          "words": [
+            "Select a state"
+          ],
+          "region": "main",
+          "form": "What line of business is the agency interested in?",
+          "xpath": "//button[@id='state']",
+          "stability": "Strong",
+          "pages": 1,
+          "seenOn": "https://www.frontlineinsurance.com/contact-us/become-an-agent"
+        },
+        {
+          "kind": "dropdown",
+          "words": [
+            "Select a state first"
+          ],
+          "region": "main",
+          "form": "What line of business is the agency interested in?",
+          "xpath": "//button[normalize-space()='Select a state first']",
+          "stability": "OK",
+          "pages": 1,
+          "seenOn": "https://www.frontlineinsurance.com/contact-us/become-an-agent"
+        },
+        {
+          "kind": "text field",
+          "words": [
+            "City"
+          ],
+          "region": "main",
+          "form": "What line of business is the agency interested in?",
+          "xpath": "//input[@id='city']",
+          "stability": "Strong",
+          "pages": 1,
+          "seenOn": "https://www.frontlineinsurance.com/contact-us/become-an-agent"
+        },
+        {
+          "kind": "text field",
+          "words": [
+            "Zip Code",
+            "zipCode"
+          ],
+          "region": "main",
+          "form": "What line of business is the agency interested in?",
+          "xpath": "//input[@id='zipCode']",
+          "stability": "Strong",
+          "pages": 1,
+          "seenOn": "https://www.frontlineinsurance.com/contact-us/become-an-agent"
+        },
+        {
+          "kind": "button",
+          "words": [
+            "Select date agency established"
+          ],
+          "region": "main",
+          "form": "What line of business is the agency interested in?",
+          "xpath": "//button[normalize-space()='Select date agency established']",
+          "stability": "OK",
+          "pages": 1,
+          "seenOn": "https://www.frontlineinsurance.com/contact-us/become-an-agent"
+        },
+        {
+          "kind": "email field",
+          "words": [
+            "Email Address",
+            "email"
+          ],
+          "region": "main",
+          "form": "What line of business is the agency interested in?",
+          "xpath": "//input[@id='email']",
+          "stability": "Strong",
+          "pages": 1,
+          "seenOn": "https://www.frontlineinsurance.com/contact-us/become-an-agent"
+        },
+        {
+          "kind": "email field",
+          "words": [
+            "Onboarding Contact Email",
+            "paEmail"
+          ],
+          "region": "main",
+          "form": "What line of business is the agency interested in?",
+          "xpath": "//input[@id='paEmail']",
+          "stability": "Strong",
+          "pages": 1,
+          "seenOn": "https://www.frontlineinsurance.com/contact-us/become-an-agent"
+        },
+        {
+          "kind": "text field",
+          "words": [
+            "First Name",
+            "contactPerson.firstName"
+          ],
+          "region": "main",
+          "form": "What line of business is the agency interested in?",
+          "xpath": "//input[@id='contactPerson.firstName']",
+          "stability": "Strong",
+          "pages": 1,
+          "seenOn": "https://www.frontlineinsurance.com/contact-us/become-an-agent"
+        },
+        {
+          "kind": "text field",
+          "words": [
+            "Last Name",
+            "contactPerson.lastName"
+          ],
+          "region": "main",
+          "form": "What line of business is the agency interested in?",
+          "required": true,
+          "xpath": "//input[@id='contactPerson.lastName']",
+          "stability": "Strong",
+          "pages": 1,
+          "seenOn": "https://www.frontlineinsurance.com/contact-us/become-an-agent"
+        },
+        {
+          "kind": "text field",
+          "words": [
+            "Title",
+            "contactPerson.title"
+          ],
+          "region": "main",
+          "form": "What line of business is the agency interested in?",
+          "xpath": "//input[@id='contactPerson.title']",
+          "stability": "Strong",
+          "pages": 1,
+          "seenOn": "https://www.frontlineinsurance.com/contact-us/become-an-agent"
+        },
+        {
+          "kind": "tel field",
+          "words": [
+            "Phone Number"
+          ],
+          "region": "main",
+          "form": "What line of business is the agency interested in?",
+          "xpath": "//input[@id='contactPerson.number']",
+          "stability": "Strong",
+          "pages": 1,
+          "seenOn": "https://www.frontlineinsurance.com/contact-us/become-an-agent"
+        },
+        {
+          "kind": "checkbox",
+          "words": [],
+          "region": "main",
+          "form": "What line of business is the agency interested in?",
+          "xpath": "//button[@id='checkbox-_R_b4pav5ubsnllb_-0']",
+          "stability": "Strong",
+          "pages": 1,
+          "seenOn": "https://www.frontlineinsurance.com/contact-us/become-an-agent"
+        },
+        {
+          "kind": "checkbox",
+          "words": [],
+          "region": "main",
+          "form": "What line of business is the agency interested in?",
+          "xpath": "//button[@id='checkbox-_R_b4pav5ubsnllb_-1']",
+          "stability": "Strong",
+          "pages": 1,
+          "seenOn": "https://www.frontlineinsurance.com/contact-us/become-an-agent"
+        },
+        {
+          "kind": "radio",
+          "words": [],
+          "region": "main",
+          "form": "What line of business is the agency interested in?",
+          "xpath": "//button[@id='radio-_R_mpav5ubsnllb_-0']",
+          "stability": "Strong",
+          "pages": 1,
+          "seenOn": "https://www.frontlineinsurance.com/contact-us/become-an-agent"
+        },
+        {
+          "kind": "radio",
+          "words": [],
+          "region": "main",
+          "form": "What line of business is the agency interested in?",
+          "xpath": "//button[@id='radio-_R_mpav5ubsnllb_-1']",
+          "stability": "Strong",
+          "pages": 1,
+          "seenOn": "https://www.frontlineinsurance.com/contact-us/become-an-agent"
+        },
+        {
+          "kind": "text field",
+          "words": [
+            "Total Agency Premium Volume",
+            "$0.00"
+          ],
+          "region": "main",
+          "form": "What line of business is the agency interested in?",
+          "xpath": "//input[@id='totalAgencyVolume']",
+          "stability": "Strong",
+          "pages": 1,
+          "seenOn": "https://www.frontlineinsurance.com/contact-us/become-an-agent"
+        },
+        {
+          "kind": "text field",
+          "words": [
+            "Personal Lines Premium Volume",
+            "$0.00"
+          ],
+          "region": "main",
+          "form": "What line of business is the agency interested in?",
+          "xpath": "//input[@id='personalLinesVolume']",
+          "stability": "Strong",
+          "pages": 1,
+          "seenOn": "https://www.frontlineinsurance.com/contact-us/become-an-agent"
+        },
+        {
+          "kind": "text field",
+          "words": [
+            "Commercial Lines Premium Volume",
+            "$0.00"
+          ],
+          "region": "main",
+          "form": "What line of business is the agency interested in?",
+          "xpath": "//input[@id='commercialLinesVolume']",
+          "stability": "Strong",
+          "pages": 1,
+          "seenOn": "https://www.frontlineinsurance.com/contact-us/become-an-agent"
+        },
+        {
+          "kind": "radio",
+          "words": [],
+          "region": "main",
+          "form": "What line of business is the agency interested in?",
+          "xpath": "//button[@id='radio-_R_8qpav5ubsnllb_-0']",
+          "stability": "Strong",
+          "pages": 1,
+          "seenOn": "https://www.frontlineinsurance.com/contact-us/become-an-agent"
+        },
+        {
+          "kind": "radio",
+          "words": [],
+          "region": "main",
+          "form": "What line of business is the agency interested in?",
+          "xpath": "//button[@id='radio-_R_8qpav5ubsnllb_-1']",
+          "stability": "Strong",
+          "pages": 1,
+          "seenOn": "https://www.frontlineinsurance.com/contact-us/become-an-agent"
+        },
+        {
+          "kind": "radio",
+          "words": [],
+          "region": "main",
+          "form": "What line of business is the agency interested in?",
+          "xpath": "//button[@id='radio-_R_9qpav5ubsnllb_-0']",
+          "stability": "Strong",
+          "pages": 1,
+          "seenOn": "https://www.frontlineinsurance.com/contact-us/become-an-agent"
+        },
+        {
+          "kind": "radio",
+          "words": [],
+          "region": "main",
+          "form": "What line of business is the agency interested in?",
+          "xpath": "//button[@id='radio-_R_9qpav5ubsnllb_-1']",
+          "stability": "Strong",
+          "pages": 1,
+          "seenOn": "https://www.frontlineinsurance.com/contact-us/become-an-agent"
+        },
+        {
+          "kind": "radio",
+          "words": [],
+          "region": "main",
+          "form": "What line of business is the agency interested in?",
+          "xpath": "//button[@id='radio-_R_aqpav5ubsnllb_-0']",
+          "stability": "Strong",
+          "pages": 1,
+          "seenOn": "https://www.frontlineinsurance.com/contact-us/become-an-agent"
+        },
+        {
+          "kind": "radio",
+          "words": [],
+          "region": "main",
+          "form": "What line of business is the agency interested in?",
+          "xpath": "//button[@id='radio-_R_aqpav5ubsnllb_-1']",
+          "stability": "Strong",
+          "pages": 1,
+          "seenOn": "https://www.frontlineinsurance.com/contact-us/become-an-agent"
+        },
+        {
+          "kind": "radio",
+          "words": [],
+          "region": "main",
+          "form": "What line of business is the agency interested in?",
+          "xpath": "//button[@id='radio-_R_3qpav5ubsnllb_-0']",
+          "stability": "Strong",
+          "pages": 1,
+          "seenOn": "https://www.frontlineinsurance.com/contact-us/become-an-agent"
+        },
+        {
+          "kind": "radio",
+          "words": [],
+          "region": "main",
+          "form": "What line of business is the agency interested in?",
+          "xpath": "//button[@id='radio-_R_3qpav5ubsnllb_-1']",
+          "stability": "Strong",
+          "pages": 1,
+          "seenOn": "https://www.frontlineinsurance.com/contact-us/become-an-agent"
+        },
+        {
+          "kind": "text area",
+          "words": [
+            "Comments",
+            "Write any additional comments..."
+          ],
+          "region": "main",
+          "form": "What line of business is the agency interested in?",
+          "xpath": "//textarea[@id='comments']",
+          "stability": "Strong",
+          "pages": 1,
+          "seenOn": "https://www.frontlineinsurance.com/contact-us/become-an-agent"
+        },
+        {
+          "kind": "button",
+          "words": [
+            "SUBMIT REQUEST"
+          ],
+          "region": "main",
+          "form": "What line of business is the agency interested in?",
+          "xpath": "//button[normalize-space()='Submit Request']",
+          "stability": "OK",
+          "pages": 1,
+          "seenOn": "https://www.frontlineinsurance.com/contact-us/become-an-agent"
+        }
+      ],
+      "why": {
+        "rule": "unlike-others",
+        "says": "no other page read is enough like it (the closest, /contact-us, shares 61% of its layout and 11% of its headings)"
+      }
+    },
+    {
+      "id": "blog-post",
+      "name": "BlogPostPage",
+      "urlPatterns": [
+        "/blog/*"
+      ],
+      "pages": [
+        "https://www.frontlineinsurance.com/blog/6a8c98aaad2ac6c5fe47c35b",
+        "https://www.frontlineinsurance.com/blog/high-value-home-insurance-what-homeowners-need-to-know",
+        "https://www.frontlineinsurance.com/blog/step-into-savings-understanding-frontlines-stepdown-deductible-policy",
+        "https://www.frontlineinsurance.com/blog/does-homeowners-insurance-cover-my-college-student-what-parents-should-know",
+        "https://www.frontlineinsurance.com/blog/introducing-frontlineflex",
+        "https://www.frontlineinsurance.com/blog/tornado-safety-tips-and-insurance-information-for-homeowners",
+        "https://www.frontlineinsurance.com/blog/fall-home-maintenance-prepare-your-home-for-the-season-ahead",
+        "https://www.frontlineinsurance.com/blog/why-frontlines-home-solutions-program-matters-for-homeowners",
+        "https://www.frontlineinsurance.com/blog/what-happens-after-you-file-a-homeowners-insurance-claim-a-step-by-step-guide",
+        "https://www.frontlineinsurance.com/blog/why-florida-homes-have-pool-enclosures-benefits-building-requirements-and-safety-considerations",
+        "https://www.frontlineinsurance.com/blog/why-lightning-damage-matters-for-homeowners"
+      ],
+      "repeated": true,
+      "knownUrls": 11,
+      "titlePattern": null,
+      "sharedHeadings": [],
+      "inMenu": false,
+      "linksTo": [
+        {
+          "template": "blog-post",
+          "count": 1,
+          "example": {
+            "from": "https://www.frontlineinsurance.com/blog/introducing-frontlineflex",
+            "to": "https://www.frontlineinsurance.com/blog/step-into-savings-understanding-frontlines-stepdown-deductible-policy",
+            "href": "https://www.frontlineinsurance.com/blog/step-into-savings-understanding-frontlines-stepdown-deductible-policy",
+            "text": "Step Into Savings: Understanding Frontline’s Stepdown Deductible Policy"
+          }
+        }
+      ],
+      "why": {
+        "rule": "family-by-address",
+        "says": "its 11 pages read look alike (layout 95% the same, headings 2% alike once each page's own name is set aside; none is on every page) and share the address pattern /blog/*; joined by: a listing: nearly the same layout, in one folder pattern (55 comparisons)",
+        "joinedBy": [
+          {
+            "rule": "listing-folder",
+            "pairs": 55
+          }
+        ]
+      }
+    },
+    {
+      "id": "electronic-document-delivery",
+      "name": "ElectronicDocumentDeliveryPage",
+      "urlPatterns": [
+        "/electronic-document-delivery"
+      ],
+      "pages": [
+        "https://www.frontlineinsurance.com/electronic-document-delivery"
+      ],
+      "repeated": false,
+      "knownUrls": 1,
+      "titlePattern": "Electronic Document Delivery | Frontline Insurance",
+      "sharedHeadings": [
+        "TERMS AND CONDITIONS FOR ELECTRONIC DELIVERY OF DOCUMENTS",
+        "Consent to Electronic Delivery of Documents",
+        "Paper Delivery of Documents, and Withdrawal of Consent",
+        "Document Viewing Requirements",
+        "Security",
+        "Acceptance"
+      ],
+      "inMenu": false,
+      "linksTo": [],
+      "why": {
+        "rule": "unlike-others",
+        "says": "no other page read is enough like it (the closest, /terms-and-service, shares 97% of its layout and 0% of its headings)"
+      }
+    },
+    {
+      "id": "our-story",
+      "name": "OurStoryPage",
+      "urlPatterns": [
+        "/our-story"
+      ],
+      "pages": [
+        "https://www.frontlineinsurance.com/our-story"
+      ],
+      "repeated": false,
+      "knownUrls": 1,
+      "titlePattern": "Our Story | Frontline Insurance",
+      "sharedHeadings": [
+        "Our Products",
+        "Smart, tailored solutions for the coverage you need",
+        "Frontline Reviews",
+        "“Best Home Insurance Company in Florida”"
+      ],
+      "inMenu": false,
+      "linksTo": [
+        {
+          "template": "product",
+          "count": 9,
+          "example": {
+            "from": "https://www.frontlineinsurance.com/our-story",
+            "to": "https://www.frontlineinsurance.com/products/alabama",
+            "href": "/products/alabama",
+            "text": "Alabama"
+          }
+        }
+      ],
+      "controls": [
+        {
+          "kind": "button",
+          "words": [
+            "Play About Us video"
+          ],
+          "region": "main",
+          "xpath": "//button[@aria-label='Play About Us video']",
+          "stability": "Strong",
+          "pages": 1,
+          "seenOn": "https://www.frontlineinsurance.com/our-story"
+        },
+        {
+          "kind": "expander",
+          "words": [
+            "Read the video transcript"
+          ],
+          "region": "main",
+          "xpath": "//summary[normalize-space()='Read the video transcript']",
+          "stability": "OK",
+          "pages": 1,
+          "seenOn": "https://www.frontlineinsurance.com/our-story"
+        }
+      ],
+      "why": {
+        "rule": "unlike-others",
+        "says": "no other page read is enough like it (the closest, /, shares 72% of its layout and 100% of its headings)"
+      }
+    },
+    {
+      "id": "products",
+      "name": "ProductsPage",
+      "urlPatterns": [
+        "/products"
+      ],
+      "pages": [
+        "https://www.frontlineinsurance.com/products"
+      ],
+      "repeated": false,
+      "knownUrls": 1,
+      "titlePattern": "Products | Frontline Insurance",
+      "sharedHeadings": [
+        "Our Products",
+        "Smart, tailored solutions for the coverage you need"
+      ],
+      "inMenu": false,
+      "linksTo": [
+        {
+          "template": "product",
+          "count": 9,
+          "example": {
+            "from": "https://www.frontlineinsurance.com/products",
+            "to": "https://www.frontlineinsurance.com/products/alabama",
+            "href": "/products/alabama",
+            "text": "Alabama"
+          }
+        }
+      ],
+      "why": {
+        "rule": "unlike-others",
+        "says": "no other page read is enough like it (the closest, /, shares 62% of its layout and 20% of its headings)"
+      }
+    },
+    {
+      "id": "blog",
+      "name": "BlogPage",
+      "urlPatterns": [
+        "/blog"
+      ],
+      "pages": [
+        "https://www.frontlineinsurance.com/blog"
+      ],
+      "repeated": false,
+      "knownUrls": 1,
+      "titlePattern": "Blog | Frontline Insurance",
+      "sharedHeadings": [
+        "Frontline Blog",
+        "Introducing FrontlineFlex™",
+        "What is FrontlineFlex?",
+        "Stepdown Deductible®: Make Claim-Free Years Count",
+        "Deductible Eliminator: Reduce Out-of-Pocket Expenses",
+        "Can you choose both FrontlineFlex endorsements?",
+        "What Current Stepdown Policyholders Should Know",
+        "Protecting When it Matters Most",
+        "Insurance that works the way it should.",
+        "High-Value Home Insurance: What Homeowners Need to Know",
+        "What Is High-Value Home Insurance?",
+        "Who Should Consider High-Value Home Insurance?",
+        "How to Choose the Right High-Value Home Insurance",
+        "Don’t Overlook Valuable Personal Property",
+        "Create a Home Inventory",
+        "Frequently Asked Questions",
+        "Protecting What Matters Most",
+        "What Happens After You File a Homeowners Insurance Claim? A Step-by-Step Guide",
+        "Step 1: Report the Loss",
+        "Step 2: Your Claim is Assigned",
+        "Step 3: An Inspection May Be Scheduled",
+        "Step 4: Document the Damage",
+        "Step 5: Protect Your Property from Further Damage",
+        "Step 6: Before Hiring Restoration or Mitigation Services",
+        "Step 7: Keep Damaged Property When Possible",
+        "Step 8: Submit Requested Information Promptly",
+        "Tips for a Smoother Claims Experience",
+        "We’re Here to Help",
+        "Fall Home Maintenance: Prepare your Home for the Season Ahead",
+        "Keep Water Moving Away from your Home",
+        "Check Doors, Windows, and Exposed Pipes",
+        "Prepare your Heating System",
+        "Test your Alarms",
+        "Look Over the Yard and Outdoor Spaces",
+        "Make a Plan for Changing Weather",
+        "Why Lightning Damage Matters for Homeowners",
+        "Does Homeowners Insurance Cover Lightning Damage?",
+        "What Types of Damage Can Lightning Cause?",
+        "Can Lightning Damage Your Roof Without Obvious Signs?",
+        "What Should You Do After a Lightning Strike?",
+        "Stay Prepared Before the Next Storm",
+        "Tornado Safety Tips and Insurance Information for Homeowners",
+        "What is a Tornado?",
+        "Tornado Watch vs. Tornado Warning",
+        "How a Tornado Forms",
+        "Common Types of Tornado Damage to Home",
+        "What is Tornado Insurance?",
+        "How Homeowners Insurance May Respond to Tornado Damage",
+        "What is a Wind or Wind/Hail Deductible?",
+        "How Homeowners Can Help Protect Their Home Before a Tornado",
+        "Where Should You Shelter During a Tornado?",
+        "Filing a Tornado Insurance Claim",
+        "Stay Prepared Before Severe Weather Strikes",
+        "Why do Florida Pools Have Cages?",
+        "Florida Pool Barrier Requirements",
+        "Benefits of Pool Enclosures",
+        "Pool Enclosures and Homeowners Insurance",
+        "Types of Florida Pool Enclosures",
+        "Pool Enclosures Are Just One Layer of Protection",
+        "Final Thoughts",
+        "Does Homeowners Insurance Cover My College Student? What Parents Should Know",
+        "When a Student Lives in a Dorm",
+        "What If They Live Off Campus?",
+        "What Personal Property May Be Covered?",
+        "High-Value Items May Need Additional Coverage",
+        "Don’t Forget About Your Deductible",
+        "Create a College Inventory",
+        "Questions to Ask Before Move-In",
+        "Why Frontline’s Home Solutions Program Matters for Homeowners",
+        "What Is the Home Solutions Program?",
+        "Why Preventive Home Maintenance Matters",
+        "Benefits of the Home Solutions Program",
+        "How the Home Solutions Program Works",
+        "Why Home Maintenance Helps Protect Your Investment",
+        "Find a Frontline Agent",
+        "Step Into Savings: Understanding Frontline’s Stepdown Deductible® Policy",
+        "What Is the Stepdown Deductible® Policy?",
+        "How the Stepdown Deductible® Policy Works",
+        "Why a Deductible Reimbursement Benefit Matters",
+        "Why Homeowners Choose the Stepdown Deductible® Policy",
+        "Learn More About the Stepdown Deductible® Policy"
+      ],
+      "inMenu": false,
+      "linksTo": [
+        {
+          "template": "blog-post",
+          "count": 10,
+          "example": {
+            "from": "https://www.frontlineinsurance.com/blog",
+            "to": "https://www.frontlineinsurance.com/blog/step-into-savings-understanding-frontlines-stepdown-deductible-policy",
+            "href": "https://www.frontlineinsurance.com/blog/step-into-savings-understanding-frontlines-stepdown-deductible-policy",
+            "text": "Step Into Savings: Understanding Frontline’s Stepdown Deductible Policy"
+          }
+        }
+      ],
+      "controls": [
+        {
+          "kind": "dropdown",
+          "words": [
+            "Show All Select a category"
+          ],
+          "region": "main",
+          "xpath": "//button[normalize-space()='Show AllSelect a category']",
+          "stability": "OK",
+          "pages": 1,
+          "seenOn": "https://www.frontlineinsurance.com/blog"
+        },
+        {
+          "kind": "button",
+          "words": [
+            "Search Posts"
+          ],
+          "region": "main",
+          "xpath": "//button[normalize-space()='Search Posts']",
+          "stability": "OK",
+          "pages": 1,
+          "seenOn": "https://www.frontlineinsurance.com/blog"
+        }
+      ],
+      "why": {
+        "rule": "unlike-others",
+        "says": "no other page read is enough like it (the closest, /products/north-carolina, shares 36% of its layout and 28% of its headings)"
+      }
+    },
+    {
+      "id": "agreements",
+      "name": "AgreementsPage",
+      "urlPatterns": [
+        "/agreements"
+      ],
+      "pages": [
+        "https://www.frontlineinsurance.com/agreements"
+      ],
+      "repeated": false,
+      "knownUrls": 1,
+      "titlePattern": "Agreements | Frontline Insurance",
+      "sharedHeadings": [],
+      "inMenu": false,
+      "linksTo": [],
+      "why": {
+        "rule": "unlike-others",
+        "says": "no other page read is enough like it (the closest, /blog/fall-home-maintenance-prepare-your-home-for-the-season-ahead, shares 73% of its layout)"
+      }
+    }
+  ],
+  "skipped": [
+    {
+      "url": "https://www.frontlineinsurance.com/products/virginia/flood-insurance-commercial",
+      "reason": "answered 404 (a broken link)"
+    },
+    {
+      "url": "https://www.frontlineinsurance.com/products/virginia/wind-hail",
+      "reason": "answered 404 (a broken link)"
+    },
+    {
+      "url": "https://www.frontlineinsurance.com/products/maryland/wind-hail",
+      "reason": "answered 404 (a broken link)"
+    },
+    {
+      "url": "https://www.frontlineinsurance.com/products/delaware/wind-hail",
+      "reason": "answered 404 (a broken link)"
+    },
+    {
+      "url": "https://www.frontlineinsurance.com/products/virginia/condominium",
+      "reason": "answered 404 (a broken link)"
+    },
+    {
+      "url": "https://www.frontlineinsurance.com/products/maryland/condominium",
+      "reason": "answered 404 (a broken link)"
+    },
+    {
+      "url": "https://www.frontlineinsurance.com/products/delaware/condominium",
+      "reason": "answered 404 (a broken link)"
+    },
+    {
+      "url": "https://www.frontlineinsurance.com/products/maryland/homeowners",
+      "reason": "answered 404 (a broken link)"
+    },
+    {
+      "url": "https://www.frontlineinsurance.com/products/delaware/homeowners",
+      "reason": "answered 404 (a broken link)"
+    },
+    {
+      "url": "https://www.frontlineinsurance.com/products/south-carolina/flood-insurance-commercial",
+      "reason": "answered 404 (a broken link)"
+    },
+    {
+      "url": "https://www.frontlineinsurance.com/products/south-carolina/rental-property",
+      "reason": "answered 404 (a broken link)"
+    },
+    {
+      "url": "https://www.frontlineinsurance.com/products/south-carolina/condominium",
+      "reason": "answered 404 (a broken link)"
+    },
+    {
+      "url": "https://www.frontlineinsurance.com/products/virginia/commercial-property",
+      "reason": "answered 404 (a broken link)"
+    },
+    {
+      "url": "https://www.frontlineinsurance.com/products/south-carolina/commercial-property",
+      "reason": "answered 404 (a broken link)"
+    },
+    {
+      "url": "https://www.frontlineinsurance.com/products/alabama/flood-insurance-commercial",
+      "reason": "answered 404 (a broken link)"
+    },
+    {
+      "url": "https://www.frontlineinsurance.com/products/alabama/rental-property",
+      "reason": "answered 404 (a broken link)"
+    },
+    {
+      "url": "https://www.frontlineinsurance.com/products/alabama/condominium",
+      "reason": "answered 404 (a broken link)"
+    },
+    {
+      "url": "https://www.frontlineinsurance.com/products/alabama/commercial-property",
+      "reason": "answered 404 (a broken link)"
+    },
+    {
+      "url": "https://www.frontlineinsurance.com/products/virginia/homeowners",
+      "reason": "answered 404 (a broken link)"
+    },
+    {
+      "url": "https://www.frontlineinsurance.com/products/south-carolina/homeowners",
+      "reason": "answered 404 (a broken link)"
+    },
+    {
+      "url": "https://www.frontlineinsurance.com/products/alabama/homeowners",
+      "reason": "answered 404 (a broken link)"
+    },
+    {
+      "url": "https://www.frontlineinsurance.com/products/north-carolina/flood-insurance-commercial",
+      "reason": "answered 404 (a broken link)"
+    },
+    {
+      "url": "https://www.frontlineinsurance.com/products/north-carolina/flood-insurance-homeowners",
+      "reason": "answered 404 (a broken link)"
+    },
+    {
+      "url": "https://www.frontlineinsurance.com/products/north-carolina/high-value",
+      "reason": "answered 404 (a broken link)"
+    },
+    {
+      "url": "https://www.frontlineinsurance.com/products/north-carolina/builders-risk",
+      "reason": "answered 404 (a broken link)"
+    },
+    {
+      "url": "https://www.frontlineinsurance.com/products/north-carolina/homeowners",
+      "reason": "answered 404 (a broken link)"
+    },
+    {
+      "url": "https://www.frontlineinsurance.com/products/virginia/flood-insurance-homeowners",
+      "reason": "answered 404 (a broken link)"
+    },
+    {
+      "url": "https://www.frontlineinsurance.com/products/south-carolina/flood-insurance-homeowners",
+      "reason": "answered 404 (a broken link)"
+    },
+    {
+      "url": "https://www.frontlineinsurance.com/products/alabama/flood-insurance-homeowners",
+      "reason": "answered 404 (a broken link)"
+    },
+    {
+      "url": "https://www.frontlineinsurance.com/products/georgia/flood-insurance-commercial",
+      "reason": "answered 404 (a broken link)"
+    },
+    {
+      "url": "https://www.frontlineinsurance.com/products/georgia/flood-insurance-homeowners",
+      "reason": "answered 404 (a broken link)"
+    },
+    {
+      "url": "https://www.frontlineinsurance.com/products/georgia/condominium",
+      "reason": "answered 404 (a broken link)"
+    },
+    {
+      "url": "https://www.frontlineinsurance.com/products/georgia/builders-risk",
+      "reason": "answered 404 (a broken link)"
+    },
+    {
+      "url": "https://www.frontlineinsurance.com/products/georgia/homeowners",
+      "reason": "answered 404 (a broken link)"
+    },
+    {
+      "url": "https://www.frontlineinsurance.com/products/north-carolina/commercial-property",
+      "reason": "answered 404 (a broken link)"
+    },
+    {
+      "url": "https://www.frontlineinsurance.com/products/georgia/commercial-property",
+      "reason": "answered 404 (a broken link)"
+    },
+    {
+      "url": "https://www.frontlineinsurance.com/products/virginia/high-value",
+      "reason": "answered 404 (a broken link)"
+    },
+    {
+      "url": "https://www.frontlineinsurance.com/products/south-carolina/high-value",
+      "reason": "answered 404 (a broken link)"
+    },
+    {
+      "url": "https://www.frontlineinsurance.com/products/alabama/high-value",
+      "reason": "answered 404 (a broken link)"
+    },
+    {
+      "url": "https://www.frontlineinsurance.com/products/tennessee/wind-hail",
+      "reason": "answered 404 (a broken link)"
+    },
+    {
+      "url": "https://www.frontlineinsurance.com/products/tennessee/condominium",
+      "reason": "answered 404 (a broken link)"
+    },
+    {
+      "url": "https://www.frontlineinsurance.com/products/tennessee/homeowners",
+      "reason": "answered 404 (a broken link)"
+    },
+    {
+      "url": "https://www.frontlineinsurance.com/products/florida/flood-insurance-commercial",
+      "reason": "answered 404 (a broken link)"
+    },
+    {
+      "url": "https://www.frontlineinsurance.com/products/florida/rental-property",
+      "reason": "answered 404 (a broken link)"
+    },
+    {
+      "url": "https://www.frontlineinsurance.com/products/florida/condominium",
+      "reason": "answered 404 (a broken link)"
+    },
+    {
+      "url": "https://www.frontlineinsurance.com/products/florida/commercial-property",
+      "reason": "answered 404 (a broken link)"
+    },
+    {
+      "url": "https://www.frontlineinsurance.com/products/florida/homeowners",
+      "reason": "answered 404 (a broken link)"
+    },
+    {
+      "url": "https://www.frontlineinsurance.com/products/florida/flood-insurance-homeowners",
+      "reason": "answered 404 (a broken link)"
+    },
+    {
+      "url": "https://www.frontlineinsurance.com/products/florida/high-value",
+      "reason": "answered 404 (a broken link)"
+    },
+    {
+      "url": "https://www.frontlineinsurance.com/products/virginia/builders-risk",
+      "reason": "answered 404 (a broken link)"
+    },
+    {
+      "url": "https://www.frontlineinsurance.com/products/south-carolina/builders-risk",
+      "reason": "answered 404 (a broken link)"
+    },
+    {
+      "url": "https://www.frontlineinsurance.com/products/alabama/builders-risk",
+      "reason": "answered 404 (a broken link)"
+    },
+    {
+      "url": "https://www.frontlineinsurance.com/products/florida/builders-risk",
+      "reason": "answered 404 (a broken link)"
+    },
+    {
+      "url": "https://www.frontlineinsurance.com/products/north-carolina/wind-hail",
+      "reason": "answered 404 (a broken link)"
+    },
+    {
+      "url": "https://www.frontlineinsurance.com/products/georgia/high-value",
+      "reason": "answered 404 (a broken link)"
+    },
+    {
+      "url": "https://www.frontlineinsurance.com/products/maryland/high-value",
+      "reason": "answered 404 (a broken link)"
+    },
+    {
+      "url": "https://www.frontlineinsurance.com/products/delaware/high-value",
+      "reason": "answered 404 (a broken link)"
+    },
+    {
+      "url": "https://www.frontlineinsurance.com/products/tennessee/high-value",
+      "reason": "answered 404 (a broken link)"
+    }
+  ],
+  "consent": ":is(button, a, [role=button]):text-is(\"Accept all\")",
+  "userAgent": "Mozilla/5.0 (compatible; SuiteBuilder/1.0; +https://github.com/Ghost-in-the-Kernel-Labs/Ghost-in-the-Kernel-Labs-suite-builder-docs)",
+  "brokenLinks": [
+    {
+      "url": "https://www.frontlineinsurance.com/products/virginia/flood-insurance-commercial",
+      "status": 404,
+      "linkedFrom": [
+        "https://www.frontlineinsurance.com/products/virginia"
+      ]
+    },
+    {
+      "url": "https://www.frontlineinsurance.com/products/virginia/wind-hail",
+      "status": 404,
+      "linkedFrom": [
+        "https://www.frontlineinsurance.com/products/virginia"
+      ]
+    },
+    {
+      "url": "https://www.frontlineinsurance.com/products/maryland/wind-hail",
+      "status": 404,
+      "linkedFrom": [
+        "https://www.frontlineinsurance.com/products/maryland"
+      ]
+    },
+    {
+      "url": "https://www.frontlineinsurance.com/products/delaware/wind-hail",
+      "status": 404,
+      "linkedFrom": [
+        "https://www.frontlineinsurance.com/products/delaware"
+      ]
+    },
+    {
+      "url": "https://www.frontlineinsurance.com/products/virginia/condominium",
+      "status": 404,
+      "linkedFrom": [
+        "https://www.frontlineinsurance.com/products/virginia"
+      ]
+    },
+    {
+      "url": "https://www.frontlineinsurance.com/products/maryland/condominium",
+      "status": 404,
+      "linkedFrom": [
+        "https://www.frontlineinsurance.com/products/maryland"
+      ]
+    },
+    {
+      "url": "https://www.frontlineinsurance.com/products/delaware/condominium",
+      "status": 404,
+      "linkedFrom": [
+        "https://www.frontlineinsurance.com/products/delaware"
+      ]
+    },
+    {
+      "url": "https://www.frontlineinsurance.com/products/maryland/homeowners",
+      "status": 404,
+      "linkedFrom": [
+        "https://www.frontlineinsurance.com/products/maryland"
+      ]
+    },
+    {
+      "url": "https://www.frontlineinsurance.com/products/delaware/homeowners",
+      "status": 404,
+      "linkedFrom": [
+        "https://www.frontlineinsurance.com/products/delaware"
+      ]
+    },
+    {
+      "url": "https://www.frontlineinsurance.com/products/south-carolina/flood-insurance-commercial",
+      "status": 404,
+      "linkedFrom": [
+        "https://www.frontlineinsurance.com/products/south-carolina"
+      ]
+    },
+    {
+      "url": "https://www.frontlineinsurance.com/products/south-carolina/rental-property",
+      "status": 404,
+      "linkedFrom": [
+        "https://www.frontlineinsurance.com/products/south-carolina"
+      ]
+    },
+    {
+      "url": "https://www.frontlineinsurance.com/products/south-carolina/condominium",
+      "status": 404,
+      "linkedFrom": [
+        "https://www.frontlineinsurance.com/products/south-carolina"
+      ]
+    },
+    {
+      "url": "https://www.frontlineinsurance.com/products/virginia/commercial-property",
+      "status": 404,
+      "linkedFrom": [
+        "https://www.frontlineinsurance.com/products/virginia"
+      ]
+    },
+    {
+      "url": "https://www.frontlineinsurance.com/products/south-carolina/commercial-property",
+      "status": 404,
+      "linkedFrom": [
+        "https://www.frontlineinsurance.com/products/south-carolina"
+      ]
+    },
+    {
+      "url": "https://www.frontlineinsurance.com/products/alabama/flood-insurance-commercial",
+      "status": 404,
+      "linkedFrom": [
+        "https://www.frontlineinsurance.com/products/alabama"
+      ]
+    },
+    {
+      "url": "https://www.frontlineinsurance.com/products/alabama/rental-property",
+      "status": 404,
+      "linkedFrom": [
+        "https://www.frontlineinsurance.com/products/alabama"
+      ]
+    },
+    {
+      "url": "https://www.frontlineinsurance.com/products/alabama/condominium",
+      "status": 404,
+      "linkedFrom": [
+        "https://www.frontlineinsurance.com/products/alabama"
+      ]
+    },
+    {
+      "url": "https://www.frontlineinsurance.com/products/alabama/commercial-property",
+      "status": 404,
+      "linkedFrom": [
+        "https://www.frontlineinsurance.com/products/alabama"
+      ]
+    },
+    {
+      "url": "https://www.frontlineinsurance.com/products/virginia/homeowners",
+      "status": 404,
+      "linkedFrom": [
+        "https://www.frontlineinsurance.com/products/virginia"
+      ]
+    },
+    {
+      "url": "https://www.frontlineinsurance.com/products/south-carolina/homeowners",
+      "status": 404,
+      "linkedFrom": [
+        "https://www.frontlineinsurance.com/products/south-carolina"
+      ]
+    },
+    {
+      "url": "https://www.frontlineinsurance.com/products/alabama/homeowners",
+      "status": 404,
+      "linkedFrom": [
+        "https://www.frontlineinsurance.com/products/alabama"
+      ]
+    },
+    {
+      "url": "https://www.frontlineinsurance.com/products/north-carolina/flood-insurance-commercial",
+      "status": 404,
+      "linkedFrom": [
+        "https://www.frontlineinsurance.com/products/north-carolina"
+      ]
+    },
+    {
+      "url": "https://www.frontlineinsurance.com/products/north-carolina/flood-insurance-homeowners",
+      "status": 404,
+      "linkedFrom": [
+        "https://www.frontlineinsurance.com/products/north-carolina"
+      ]
+    },
+    {
+      "url": "https://www.frontlineinsurance.com/products/north-carolina/high-value",
+      "status": 404,
+      "linkedFrom": [
+        "https://www.frontlineinsurance.com/products/north-carolina"
+      ]
+    },
+    {
+      "url": "https://www.frontlineinsurance.com/products/north-carolina/builders-risk",
+      "status": 404,
+      "linkedFrom": [
+        "https://www.frontlineinsurance.com/products/north-carolina"
+      ]
+    },
+    {
+      "url": "https://www.frontlineinsurance.com/products/north-carolina/homeowners",
+      "status": 404,
+      "linkedFrom": [
+        "https://www.frontlineinsurance.com/products/north-carolina"
+      ]
+    },
+    {
+      "url": "https://www.frontlineinsurance.com/products/virginia/flood-insurance-homeowners",
+      "status": 404,
+      "linkedFrom": [
+        "https://www.frontlineinsurance.com/products/virginia"
+      ]
+    },
+    {
+      "url": "https://www.frontlineinsurance.com/products/south-carolina/flood-insurance-homeowners",
+      "status": 404,
+      "linkedFrom": [
+        "https://www.frontlineinsurance.com/products/south-carolina"
+      ]
+    },
+    {
+      "url": "https://www.frontlineinsurance.com/products/alabama/flood-insurance-homeowners",
+      "status": 404,
+      "linkedFrom": [
+        "https://www.frontlineinsurance.com/products/alabama"
+      ]
+    },
+    {
+      "url": "https://www.frontlineinsurance.com/products/georgia/flood-insurance-commercial",
+      "status": 404,
+      "linkedFrom": [
+        "https://www.frontlineinsurance.com/products/georgia"
+      ]
+    },
+    {
+      "url": "https://www.frontlineinsurance.com/products/georgia/flood-insurance-homeowners",
+      "status": 404,
+      "linkedFrom": [
+        "https://www.frontlineinsurance.com/products/georgia"
+      ]
+    },
+    {
+      "url": "https://www.frontlineinsurance.com/products/georgia/condominium",
+      "status": 404,
+      "linkedFrom": [
+        "https://www.frontlineinsurance.com/products/georgia"
+      ]
+    },
+    {
+      "url": "https://www.frontlineinsurance.com/products/georgia/builders-risk",
+      "status": 404,
+      "linkedFrom": [
+        "https://www.frontlineinsurance.com/products/georgia"
+      ]
+    },
+    {
+      "url": "https://www.frontlineinsurance.com/products/georgia/homeowners",
+      "status": 404,
+      "linkedFrom": [
+        "https://www.frontlineinsurance.com/products/georgia"
+      ]
+    },
+    {
+      "url": "https://www.frontlineinsurance.com/products/north-carolina/commercial-property",
+      "status": 404,
+      "linkedFrom": [
+        "https://www.frontlineinsurance.com/products/north-carolina"
+      ]
+    },
+    {
+      "url": "https://www.frontlineinsurance.com/products/georgia/commercial-property",
+      "status": 404,
+      "linkedFrom": [
+        "https://www.frontlineinsurance.com/products/georgia"
+      ]
+    },
+    {
+      "url": "https://www.frontlineinsurance.com/products/virginia/high-value",
+      "status": 404,
+      "linkedFrom": [
+        "https://www.frontlineinsurance.com/products/virginia"
+      ]
+    },
+    {
+      "url": "https://www.frontlineinsurance.com/products/south-carolina/high-value",
+      "status": 404,
+      "linkedFrom": [
+        "https://www.frontlineinsurance.com/products/south-carolina"
+      ]
+    },
+    {
+      "url": "https://www.frontlineinsurance.com/products/alabama/high-value",
+      "status": 404,
+      "linkedFrom": [
+        "https://www.frontlineinsurance.com/products/alabama"
+      ]
+    },
+    {
+      "url": "https://www.frontlineinsurance.com/products/tennessee/wind-hail",
+      "status": 404,
+      "linkedFrom": [
+        "https://www.frontlineinsurance.com/products/tennessee"
+      ]
+    },
+    {
+      "url": "https://www.frontlineinsurance.com/products/tennessee/condominium",
+      "status": 404,
+      "linkedFrom": [
+        "https://www.frontlineinsurance.com/products/tennessee"
+      ]
+    },
+    {
+      "url": "https://www.frontlineinsurance.com/products/tennessee/homeowners",
+      "status": 404,
+      "linkedFrom": [
+        "https://www.frontlineinsurance.com/products/tennessee"
+      ]
+    },
+    {
+      "url": "https://www.frontlineinsurance.com/products/florida/flood-insurance-commercial",
+      "status": 404,
+      "linkedFrom": [
+        "https://www.frontlineinsurance.com/products/florida"
+      ]
+    },
+    {
+      "url": "https://www.frontlineinsurance.com/products/florida/rental-property",
+      "status": 404,
+      "linkedFrom": [
+        "https://www.frontlineinsurance.com/products/florida"
+      ]
+    },
+    {
+      "url": "https://www.frontlineinsurance.com/products/florida/condominium",
+      "status": 404,
+      "linkedFrom": [
+        "https://www.frontlineinsurance.com/products/florida"
+      ]
+    },
+    {
+      "url": "https://www.frontlineinsurance.com/products/florida/commercial-property",
+      "status": 404,
+      "linkedFrom": [
+        "https://www.frontlineinsurance.com/products/florida"
+      ]
+    },
+    {
+      "url": "https://www.frontlineinsurance.com/products/florida/homeowners",
+      "status": 404,
+      "linkedFrom": [
+        "https://www.frontlineinsurance.com/products/florida"
+      ]
+    },
+    {
+      "url": "https://www.frontlineinsurance.com/products/florida/flood-insurance-homeowners",
+      "status": 404,
+      "linkedFrom": [
+        "https://www.frontlineinsurance.com/products/florida"
+      ]
+    },
+    {
+      "url": "https://www.frontlineinsurance.com/products/florida/high-value",
+      "status": 404,
+      "linkedFrom": [
+        "https://www.frontlineinsurance.com/products/florida"
+      ]
+    },
+    {
+      "url": "https://www.frontlineinsurance.com/products/virginia/builders-risk",
+      "status": 404,
+      "linkedFrom": [
+        "https://www.frontlineinsurance.com/products/virginia"
+      ]
+    },
+    {
+      "url": "https://www.frontlineinsurance.com/products/south-carolina/builders-risk",
+      "status": 404,
+      "linkedFrom": [
+        "https://www.frontlineinsurance.com/products/south-carolina"
+      ]
+    },
+    {
+      "url": "https://www.frontlineinsurance.com/products/alabama/builders-risk",
+      "status": 404,
+      "linkedFrom": [
+        "https://www.frontlineinsurance.com/products/alabama"
+      ]
+    },
+    {
+      "url": "https://www.frontlineinsurance.com/products/florida/builders-risk",
+      "status": 404,
+      "linkedFrom": [
+        "https://www.frontlineinsurance.com/products/florida"
+      ]
+    },
+    {
+      "url": "https://www.frontlineinsurance.com/products/north-carolina/wind-hail",
+      "status": 404,
+      "linkedFrom": [
+        "https://www.frontlineinsurance.com/products/north-carolina"
+      ]
+    },
+    {
+      "url": "https://www.frontlineinsurance.com/products/georgia/high-value",
+      "status": 404,
+      "linkedFrom": [
+        "https://www.frontlineinsurance.com/products/georgia"
+      ]
+    },
+    {
+      "url": "https://www.frontlineinsurance.com/products/maryland/high-value",
+      "status": 404,
+      "linkedFrom": [
+        "https://www.frontlineinsurance.com/products/maryland"
+      ]
+    },
+    {
+      "url": "https://www.frontlineinsurance.com/products/delaware/high-value",
+      "status": 404,
+      "linkedFrom": [
+        "https://www.frontlineinsurance.com/products/delaware"
+      ]
+    },
+    {
+      "url": "https://www.frontlineinsurance.com/products/tennessee/high-value",
+      "status": 404,
+      "linkedFrom": [
+        "https://www.frontlineinsurance.com/products/tennessee"
+      ]
+    }
+  ],
+  "findings": [
+    {
+      "code": "SITE-02",
+      "severity": "major",
+      "listed": [
+        "link",
+        "links"
+      ],
+      "title": "58 broken links in a closed part of the page: the site links to addresses that answer an error",
+      "where": [
+        {
+          "url": "https://www.frontlineinsurance.com/products/virginia/flood-insurance-commercial",
+          "says": "answered 404; linked from /products/virginia",
+          "link": {
+            "paths": [
+              "/products/virginia/flood-insurance-commercial"
+            ],
+            "status": 404,
+            "answer": "answered 404",
+            "from": [
+              "/products/virginia"
+            ],
+            "more": 0,
+            "why": "broken"
+          }
+        },
+        {
+          "url": "https://www.frontlineinsurance.com/products/virginia/wind-hail",
+          "says": "answered 404; linked from /products/virginia",
+          "link": {
+            "paths": [
+              "/products/virginia/wind-hail"
+            ],
+            "status": 404,
+            "answer": "answered 404",
+            "from": [
+              "/products/virginia"
+            ],
+            "more": 0,
+            "why": "broken"
+          }
+        },
+        {
+          "url": "https://www.frontlineinsurance.com/products/maryland/wind-hail",
+          "says": "answered 404; linked from /products/maryland",
+          "link": {
+            "paths": [
+              "/products/maryland/wind-hail"
+            ],
+            "status": 404,
+            "answer": "answered 404",
+            "from": [
+              "/products/maryland"
+            ],
+            "more": 0,
+            "why": "broken"
+          }
+        },
+        {
+          "url": "https://www.frontlineinsurance.com/products/delaware/wind-hail",
+          "says": "answered 404; linked from /products/delaware",
+          "link": {
+            "paths": [
+              "/products/delaware/wind-hail"
+            ],
+            "status": 404,
+            "answer": "answered 404",
+            "from": [
+              "/products/delaware"
+            ],
+            "more": 0,
+            "why": "broken"
+          }
+        },
+        {
+          "url": "https://www.frontlineinsurance.com/products/virginia/condominium",
+          "says": "answered 404; linked from /products/virginia",
+          "link": {
+            "paths": [
+              "/products/virginia/condominium"
+            ],
+            "status": 404,
+            "answer": "answered 404",
+            "from": [
+              "/products/virginia"
+            ],
+            "more": 0,
+            "why": "broken"
+          }
+        },
+        {
+          "url": "https://www.frontlineinsurance.com/products/maryland/condominium",
+          "says": "answered 404; linked from /products/maryland",
+          "link": {
+            "paths": [
+              "/products/maryland/condominium"
+            ],
+            "status": 404,
+            "answer": "answered 404",
+            "from": [
+              "/products/maryland"
+            ],
+            "more": 0,
+            "why": "broken"
+          }
+        },
+        {
+          "url": "https://www.frontlineinsurance.com/products/delaware/condominium",
+          "says": "answered 404; linked from /products/delaware",
+          "link": {
+            "paths": [
+              "/products/delaware/condominium"
+            ],
+            "status": 404,
+            "answer": "answered 404",
+            "from": [
+              "/products/delaware"
+            ],
+            "more": 0,
+            "why": "broken"
+          }
+        },
+        {
+          "url": "https://www.frontlineinsurance.com/products/maryland/homeowners",
+          "says": "answered 404; linked from /products/maryland",
+          "link": {
+            "paths": [
+              "/products/maryland/homeowners"
+            ],
+            "status": 404,
+            "answer": "answered 404",
+            "from": [
+              "/products/maryland"
+            ],
+            "more": 0,
+            "why": "broken"
+          }
+        },
+        {
+          "url": "https://www.frontlineinsurance.com/products/delaware/homeowners",
+          "says": "answered 404; linked from /products/delaware",
+          "link": {
+            "paths": [
+              "/products/delaware/homeowners"
+            ],
+            "status": 404,
+            "answer": "answered 404",
+            "from": [
+              "/products/delaware"
+            ],
+            "more": 0,
+            "why": "broken"
+          }
+        },
+        {
+          "url": "https://www.frontlineinsurance.com/products/south-carolina/flood-insurance-commercial",
+          "says": "answered 404; linked from /products/south-carolina",
+          "link": {
+            "paths": [
+              "/products/south-carolina/flood-insurance-commercial"
+            ],
+            "status": 404,
+            "answer": "answered 404",
+            "from": [
+              "/products/south-carolina"
+            ],
+            "more": 0,
+            "why": "broken"
+          }
+        },
+        {
+          "url": "https://www.frontlineinsurance.com/products/south-carolina/rental-property",
+          "says": "answered 404; linked from /products/south-carolina",
+          "link": {
+            "paths": [
+              "/products/south-carolina/rental-property"
+            ],
+            "status": 404,
+            "answer": "answered 404",
+            "from": [
+              "/products/south-carolina"
+            ],
+            "more": 0,
+            "why": "broken"
+          }
+        },
+        {
+          "url": "https://www.frontlineinsurance.com/products/south-carolina/condominium",
+          "says": "answered 404; linked from /products/south-carolina",
+          "link": {
+            "paths": [
+              "/products/south-carolina/condominium"
+            ],
+            "status": 404,
+            "answer": "answered 404",
+            "from": [
+              "/products/south-carolina"
+            ],
+            "more": 0,
+            "why": "broken"
+          }
+        },
+        {
+          "url": "https://www.frontlineinsurance.com/products/virginia/commercial-property",
+          "says": "answered 404; linked from /products/virginia",
+          "link": {
+            "paths": [
+              "/products/virginia/commercial-property"
+            ],
+            "status": 404,
+            "answer": "answered 404",
+            "from": [
+              "/products/virginia"
+            ],
+            "more": 0,
+            "why": "broken"
+          }
+        },
+        {
+          "url": "https://www.frontlineinsurance.com/products/south-carolina/commercial-property",
+          "says": "answered 404; linked from /products/south-carolina",
+          "link": {
+            "paths": [
+              "/products/south-carolina/commercial-property"
+            ],
+            "status": 404,
+            "answer": "answered 404",
+            "from": [
+              "/products/south-carolina"
+            ],
+            "more": 0,
+            "why": "broken"
+          }
+        },
+        {
+          "url": "https://www.frontlineinsurance.com/products/alabama/flood-insurance-commercial",
+          "says": "answered 404; linked from /products/alabama",
+          "link": {
+            "paths": [
+              "/products/alabama/flood-insurance-commercial"
+            ],
+            "status": 404,
+            "answer": "answered 404",
+            "from": [
+              "/products/alabama"
+            ],
+            "more": 0,
+            "why": "broken"
+          }
+        },
+        {
+          "url": "https://www.frontlineinsurance.com/products/alabama/rental-property",
+          "says": "answered 404; linked from /products/alabama",
+          "link": {
+            "paths": [
+              "/products/alabama/rental-property"
+            ],
+            "status": 404,
+            "answer": "answered 404",
+            "from": [
+              "/products/alabama"
+            ],
+            "more": 0,
+            "why": "broken"
+          }
+        },
+        {
+          "url": "https://www.frontlineinsurance.com/products/alabama/condominium",
+          "says": "answered 404; linked from /products/alabama",
+          "link": {
+            "paths": [
+              "/products/alabama/condominium"
+            ],
+            "status": 404,
+            "answer": "answered 404",
+            "from": [
+              "/products/alabama"
+            ],
+            "more": 0,
+            "why": "broken"
+          }
+        },
+        {
+          "url": "https://www.frontlineinsurance.com/products/alabama/commercial-property",
+          "says": "answered 404; linked from /products/alabama",
+          "link": {
+            "paths": [
+              "/products/alabama/commercial-property"
+            ],
+            "status": 404,
+            "answer": "answered 404",
+            "from": [
+              "/products/alabama"
+            ],
+            "more": 0,
+            "why": "broken"
+          }
+        },
+        {
+          "url": "https://www.frontlineinsurance.com/products/virginia/homeowners",
+          "says": "answered 404; linked from /products/virginia",
+          "link": {
+            "paths": [
+              "/products/virginia/homeowners"
+            ],
+            "status": 404,
+            "answer": "answered 404",
+            "from": [
+              "/products/virginia"
+            ],
+            "more": 0,
+            "why": "broken"
+          }
+        },
+        {
+          "url": "https://www.frontlineinsurance.com/products/south-carolina/homeowners",
+          "says": "answered 404; linked from /products/south-carolina",
+          "link": {
+            "paths": [
+              "/products/south-carolina/homeowners"
+            ],
+            "status": 404,
+            "answer": "answered 404",
+            "from": [
+              "/products/south-carolina"
+            ],
+            "more": 0,
+            "why": "broken"
+          }
+        },
+        {
+          "url": "https://www.frontlineinsurance.com/products/alabama/homeowners",
+          "says": "answered 404; linked from /products/alabama",
+          "link": {
+            "paths": [
+              "/products/alabama/homeowners"
+            ],
+            "status": 404,
+            "answer": "answered 404",
+            "from": [
+              "/products/alabama"
+            ],
+            "more": 0,
+            "why": "broken"
+          }
+        },
+        {
+          "url": "https://www.frontlineinsurance.com/products/north-carolina/flood-insurance-commercial",
+          "says": "answered 404; linked from /products/north-carolina",
+          "link": {
+            "paths": [
+              "/products/north-carolina/flood-insurance-commercial"
+            ],
+            "status": 404,
+            "answer": "answered 404",
+            "from": [
+              "/products/north-carolina"
+            ],
+            "more": 0,
+            "why": "broken"
+          }
+        },
+        {
+          "url": "https://www.frontlineinsurance.com/products/north-carolina/flood-insurance-homeowners",
+          "says": "answered 404; linked from /products/north-carolina",
+          "link": {
+            "paths": [
+              "/products/north-carolina/flood-insurance-homeowners"
+            ],
+            "status": 404,
+            "answer": "answered 404",
+            "from": [
+              "/products/north-carolina"
+            ],
+            "more": 0,
+            "why": "broken"
+          }
+        },
+        {
+          "url": "https://www.frontlineinsurance.com/products/north-carolina/high-value",
+          "says": "answered 404; linked from /products/north-carolina",
+          "link": {
+            "paths": [
+              "/products/north-carolina/high-value"
+            ],
+            "status": 404,
+            "answer": "answered 404",
+            "from": [
+              "/products/north-carolina"
+            ],
+            "more": 0,
+            "why": "broken"
+          }
+        },
+        {
+          "url": "https://www.frontlineinsurance.com/products/north-carolina/builders-risk",
+          "says": "answered 404; linked from /products/north-carolina",
+          "link": {
+            "paths": [
+              "/products/north-carolina/builders-risk"
+            ],
+            "status": 404,
+            "answer": "answered 404",
+            "from": [
+              "/products/north-carolina"
+            ],
+            "more": 0,
+            "why": "broken"
+          }
+        },
+        {
+          "url": "https://www.frontlineinsurance.com/products/north-carolina/homeowners",
+          "says": "answered 404; linked from /products/north-carolina",
+          "link": {
+            "paths": [
+              "/products/north-carolina/homeowners"
+            ],
+            "status": 404,
+            "answer": "answered 404",
+            "from": [
+              "/products/north-carolina"
+            ],
+            "more": 0,
+            "why": "broken"
+          }
+        },
+        {
+          "url": "https://www.frontlineinsurance.com/products/virginia/flood-insurance-homeowners",
+          "says": "answered 404; linked from /products/virginia",
+          "link": {
+            "paths": [
+              "/products/virginia/flood-insurance-homeowners"
+            ],
+            "status": 404,
+            "answer": "answered 404",
+            "from": [
+              "/products/virginia"
+            ],
+            "more": 0,
+            "why": "broken"
+          }
+        },
+        {
+          "url": "https://www.frontlineinsurance.com/products/south-carolina/flood-insurance-homeowners",
+          "says": "answered 404; linked from /products/south-carolina",
+          "link": {
+            "paths": [
+              "/products/south-carolina/flood-insurance-homeowners"
+            ],
+            "status": 404,
+            "answer": "answered 404",
+            "from": [
+              "/products/south-carolina"
+            ],
+            "more": 0,
+            "why": "broken"
+          }
+        },
+        {
+          "url": "https://www.frontlineinsurance.com/products/alabama/flood-insurance-homeowners",
+          "says": "answered 404; linked from /products/alabama",
+          "link": {
+            "paths": [
+              "/products/alabama/flood-insurance-homeowners"
+            ],
+            "status": 404,
+            "answer": "answered 404",
+            "from": [
+              "/products/alabama"
+            ],
+            "more": 0,
+            "why": "broken"
+          }
+        },
+        {
+          "url": "https://www.frontlineinsurance.com/products/georgia/flood-insurance-commercial",
+          "says": "answered 404; linked from /products/georgia",
+          "link": {
+            "paths": [
+              "/products/georgia/flood-insurance-commercial"
+            ],
+            "status": 404,
+            "answer": "answered 404",
+            "from": [
+              "/products/georgia"
+            ],
+            "more": 0,
+            "why": "broken"
+          }
+        },
+        {
+          "url": "https://www.frontlineinsurance.com/products/georgia/flood-insurance-homeowners",
+          "says": "answered 404; linked from /products/georgia",
+          "link": {
+            "paths": [
+              "/products/georgia/flood-insurance-homeowners"
+            ],
+            "status": 404,
+            "answer": "answered 404",
+            "from": [
+              "/products/georgia"
+            ],
+            "more": 0,
+            "why": "broken"
+          }
+        },
+        {
+          "url": "https://www.frontlineinsurance.com/products/georgia/condominium",
+          "says": "answered 404; linked from /products/georgia",
+          "link": {
+            "paths": [
+              "/products/georgia/condominium"
+            ],
+            "status": 404,
+            "answer": "answered 404",
+            "from": [
+              "/products/georgia"
+            ],
+            "more": 0,
+            "why": "broken"
+          }
+        },
+        {
+          "url": "https://www.frontlineinsurance.com/products/georgia/builders-risk",
+          "says": "answered 404; linked from /products/georgia",
+          "link": {
+            "paths": [
+              "/products/georgia/builders-risk"
+            ],
+            "status": 404,
+            "answer": "answered 404",
+            "from": [
+              "/products/georgia"
+            ],
+            "more": 0,
+            "why": "broken"
+          }
+        },
+        {
+          "url": "https://www.frontlineinsurance.com/products/georgia/homeowners",
+          "says": "answered 404; linked from /products/georgia",
+          "link": {
+            "paths": [
+              "/products/georgia/homeowners"
+            ],
+            "status": 404,
+            "answer": "answered 404",
+            "from": [
+              "/products/georgia"
+            ],
+            "more": 0,
+            "why": "broken"
+          }
+        },
+        {
+          "url": "https://www.frontlineinsurance.com/products/north-carolina/commercial-property",
+          "says": "answered 404; linked from /products/north-carolina",
+          "link": {
+            "paths": [
+              "/products/north-carolina/commercial-property"
+            ],
+            "status": 404,
+            "answer": "answered 404",
+            "from": [
+              "/products/north-carolina"
+            ],
+            "more": 0,
+            "why": "broken"
+          }
+        },
+        {
+          "url": "https://www.frontlineinsurance.com/products/georgia/commercial-property",
+          "says": "answered 404; linked from /products/georgia",
+          "link": {
+            "paths": [
+              "/products/georgia/commercial-property"
+            ],
+            "status": 404,
+            "answer": "answered 404",
+            "from": [
+              "/products/georgia"
+            ],
+            "more": 0,
+            "why": "broken"
+          }
+        },
+        {
+          "url": "https://www.frontlineinsurance.com/products/virginia/high-value",
+          "says": "answered 404; linked from /products/virginia",
+          "link": {
+            "paths": [
+              "/products/virginia/high-value"
+            ],
+            "status": 404,
+            "answer": "answered 404",
+            "from": [
+              "/products/virginia"
+            ],
+            "more": 0,
+            "why": "broken"
+          }
+        },
+        {
+          "url": "https://www.frontlineinsurance.com/products/south-carolina/high-value",
+          "says": "answered 404; linked from /products/south-carolina",
+          "link": {
+            "paths": [
+              "/products/south-carolina/high-value"
+            ],
+            "status": 404,
+            "answer": "answered 404",
+            "from": [
+              "/products/south-carolina"
+            ],
+            "more": 0,
+            "why": "broken"
+          }
+        },
+        {
+          "url": "https://www.frontlineinsurance.com/products/alabama/high-value",
+          "says": "answered 404; linked from /products/alabama",
+          "link": {
+            "paths": [
+              "/products/alabama/high-value"
+            ],
+            "status": 404,
+            "answer": "answered 404",
+            "from": [
+              "/products/alabama"
+            ],
+            "more": 0,
+            "why": "broken"
+          }
+        },
+        {
+          "url": "https://www.frontlineinsurance.com/products/tennessee/wind-hail",
+          "says": "answered 404; linked from /products/tennessee",
+          "link": {
+            "paths": [
+              "/products/tennessee/wind-hail"
+            ],
+            "status": 404,
+            "answer": "answered 404",
+            "from": [
+              "/products/tennessee"
+            ],
+            "more": 0,
+            "why": "broken"
+          }
+        },
+        {
+          "url": "https://www.frontlineinsurance.com/products/tennessee/condominium",
+          "says": "answered 404; linked from /products/tennessee",
+          "link": {
+            "paths": [
+              "/products/tennessee/condominium"
+            ],
+            "status": 404,
+            "answer": "answered 404",
+            "from": [
+              "/products/tennessee"
+            ],
+            "more": 0,
+            "why": "broken"
+          }
+        },
+        {
+          "url": "https://www.frontlineinsurance.com/products/tennessee/homeowners",
+          "says": "answered 404; linked from /products/tennessee",
+          "link": {
+            "paths": [
+              "/products/tennessee/homeowners"
+            ],
+            "status": 404,
+            "answer": "answered 404",
+            "from": [
+              "/products/tennessee"
+            ],
+            "more": 0,
+            "why": "broken"
+          }
+        },
+        {
+          "url": "https://www.frontlineinsurance.com/products/florida/flood-insurance-commercial",
+          "says": "answered 404; linked from /products/florida",
+          "link": {
+            "paths": [
+              "/products/florida/flood-insurance-commercial"
+            ],
+            "status": 404,
+            "answer": "answered 404",
+            "from": [
+              "/products/florida"
+            ],
+            "more": 0,
+            "why": "broken"
+          }
+        },
+        {
+          "url": "https://www.frontlineinsurance.com/products/florida/rental-property",
+          "says": "answered 404; linked from /products/florida",
+          "link": {
+            "paths": [
+              "/products/florida/rental-property"
+            ],
+            "status": 404,
+            "answer": "answered 404",
+            "from": [
+              "/products/florida"
+            ],
+            "more": 0,
+            "why": "broken"
+          }
+        },
+        {
+          "url": "https://www.frontlineinsurance.com/products/florida/condominium",
+          "says": "answered 404; linked from /products/florida",
+          "link": {
+            "paths": [
+              "/products/florida/condominium"
+            ],
+            "status": 404,
+            "answer": "answered 404",
+            "from": [
+              "/products/florida"
+            ],
+            "more": 0,
+            "why": "broken"
+          }
+        },
+        {
+          "url": "https://www.frontlineinsurance.com/products/florida/commercial-property",
+          "says": "answered 404; linked from /products/florida",
+          "link": {
+            "paths": [
+              "/products/florida/commercial-property"
+            ],
+            "status": 404,
+            "answer": "answered 404",
+            "from": [
+              "/products/florida"
+            ],
+            "more": 0,
+            "why": "broken"
+          }
+        },
+        {
+          "url": "https://www.frontlineinsurance.com/products/florida/homeowners",
+          "says": "answered 404; linked from /products/florida",
+          "link": {
+            "paths": [
+              "/products/florida/homeowners"
+            ],
+            "status": 404,
+            "answer": "answered 404",
+            "from": [
+              "/products/florida"
+            ],
+            "more": 0,
+            "why": "broken"
+          }
+        },
+        {
+          "url": "https://www.frontlineinsurance.com/products/florida/flood-insurance-homeowners",
+          "says": "answered 404; linked from /products/florida",
+          "link": {
+            "paths": [
+              "/products/florida/flood-insurance-homeowners"
+            ],
+            "status": 404,
+            "answer": "answered 404",
+            "from": [
+              "/products/florida"
+            ],
+            "more": 0,
+            "why": "broken"
+          }
+        },
+        {
+          "url": "https://www.frontlineinsurance.com/products/florida/high-value",
+          "says": "answered 404; linked from /products/florida",
+          "link": {
+            "paths": [
+              "/products/florida/high-value"
+            ],
+            "status": 404,
+            "answer": "answered 404",
+            "from": [
+              "/products/florida"
+            ],
+            "more": 0,
+            "why": "broken"
+          }
+        },
+        {
+          "url": "https://www.frontlineinsurance.com/products/virginia/builders-risk",
+          "says": "answered 404; linked from /products/virginia",
+          "link": {
+            "paths": [
+              "/products/virginia/builders-risk"
+            ],
+            "status": 404,
+            "answer": "answered 404",
+            "from": [
+              "/products/virginia"
+            ],
+            "more": 0,
+            "why": "broken"
+          }
+        },
+        {
+          "url": "https://www.frontlineinsurance.com/products/south-carolina/builders-risk",
+          "says": "answered 404; linked from /products/south-carolina",
+          "link": {
+            "paths": [
+              "/products/south-carolina/builders-risk"
+            ],
+            "status": 404,
+            "answer": "answered 404",
+            "from": [
+              "/products/south-carolina"
+            ],
+            "more": 0,
+            "why": "broken"
+          }
+        },
+        {
+          "url": "https://www.frontlineinsurance.com/products/alabama/builders-risk",
+          "says": "answered 404; linked from /products/alabama",
+          "link": {
+            "paths": [
+              "/products/alabama/builders-risk"
+            ],
+            "status": 404,
+            "answer": "answered 404",
+            "from": [
+              "/products/alabama"
+            ],
+            "more": 0,
+            "why": "broken"
+          }
+        },
+        {
+          "url": "https://www.frontlineinsurance.com/products/florida/builders-risk",
+          "says": "answered 404; linked from /products/florida",
+          "link": {
+            "paths": [
+              "/products/florida/builders-risk"
+            ],
+            "status": 404,
+            "answer": "answered 404",
+            "from": [
+              "/products/florida"
+            ],
+            "more": 0,
+            "why": "broken"
+          }
+        },
+        {
+          "url": "https://www.frontlineinsurance.com/products/north-carolina/wind-hail",
+          "says": "answered 404; linked from /products/north-carolina",
+          "link": {
+            "paths": [
+              "/products/north-carolina/wind-hail"
+            ],
+            "status": 404,
+            "answer": "answered 404",
+            "from": [
+              "/products/north-carolina"
+            ],
+            "more": 0,
+            "why": "broken"
+          }
+        },
+        {
+          "url": "https://www.frontlineinsurance.com/products/georgia/high-value",
+          "says": "answered 404; linked from /products/georgia",
+          "link": {
+            "paths": [
+              "/products/georgia/high-value"
+            ],
+            "status": 404,
+            "answer": "answered 404",
+            "from": [
+              "/products/georgia"
+            ],
+            "more": 0,
+            "why": "broken"
+          }
+        },
+        {
+          "url": "https://www.frontlineinsurance.com/products/maryland/high-value",
+          "says": "answered 404; linked from /products/maryland",
+          "link": {
+            "paths": [
+              "/products/maryland/high-value"
+            ],
+            "status": 404,
+            "answer": "answered 404",
+            "from": [
+              "/products/maryland"
+            ],
+            "more": 0,
+            "why": "broken"
+          }
+        },
+        {
+          "url": "https://www.frontlineinsurance.com/products/delaware/high-value",
+          "says": "answered 404; linked from /products/delaware",
+          "link": {
+            "paths": [
+              "/products/delaware/high-value"
+            ],
+            "status": 404,
+            "answer": "answered 404",
+            "from": [
+              "/products/delaware"
+            ],
+            "more": 0,
+            "why": "broken"
+          }
+        },
+        {
+          "url": "https://www.frontlineinsurance.com/products/tennessee/high-value",
+          "says": "answered 404; linked from /products/tennessee",
+          "link": {
+            "paths": [
+              "/products/tennessee/high-value"
+            ],
+            "status": 404,
+            "answer": "answered 404",
+            "from": [
+              "/products/tennessee"
+            ],
+            "more": 0,
+            "why": "broken"
+          }
+        }
+      ],
+      "why": "Each is linked only from a part of the page that is closed when it loads (a tab, an answer or a menu that opens on a click, a link shown on hover), on a page that shows a visitor what opens it: a closed part a visitor opens is as much the page as an open one. A visitor who opens it and follows one of these links reaches an error instead of the page promised.",
+      "fix": "Point each link at a page that exists, or bring the page back (or redirect its old address to where it went)."
+    },
+    {
+      "code": "SITE-07",
+      "severity": "major",
+      "title": "At least 7 links and buttons on 2 pages have nothing for a screen reader to say",
+      "where": [
+        {
+          "url": "https://www.frontlineinsurance.com/quote",
+          "says": "`<button id=\"occupancyAndUsage\">`"
+        },
+        {
+          "url": "https://www.frontlineinsurance.com/quote",
+          "says": "`<button id=\"acceptedTerms\">`"
+        },
+        {
+          "url": "https://www.frontlineinsurance.com/contact-us/become-an-agent",
+          "says": "`<button id=\"checkbox-_R_b4pav5ubsnllb_-0\">`"
+        },
+        {
+          "url": "https://www.frontlineinsurance.com/contact-us/become-an-agent",
+          "says": "`<button id=\"checkbox-_R_b4pav5ubsnllb_-1\">`"
+        },
+        {
+          "url": "https://www.frontlineinsurance.com/contact-us/become-an-agent",
+          "says": "`<button id=\"radio-_R_mpav5ubsnllb_-0\">`"
+        },
+        {
+          "url": "https://www.frontlineinsurance.com/contact-us/become-an-agent",
+          "says": "`<button id=\"radio-_R_mpav5ubsnllb_-1\">`"
+        },
+        {
+          "url": "https://www.frontlineinsurance.com/contact-us/become-an-agent",
+          "says": "`<button id=\"radio-_R_8qpav5ubsnllb_-0\">`"
+        }
+      ],
+      "listed": [
+        "link or button",
+        "links and buttons"
+      ],
+      "unlisted": "Up to 7 more may not be listed: the crawl notes the first 5 different ones on each page (/contact-us/become-an-agent showed 12, 5 listed).",
+      "why": "A blind visitor hears only \"link\" or \"button\", with no idea where it goes or what it does. Accessibility audits flag it under WCAG 4.1.2 (Name, Role, Value), the standard that laws such as the ADA and the European Accessibility Act are commonly measured by; an automated read shows a likely barrier, not a legal finding, so a person confirms each one.",
+      "fix": "Give each one words: visible text, an aria-label, or an alt on the image inside it (an icon link to a cart: aria-label=\"Cart\")."
+    },
+    {
+      "code": "SITE-33",
+      "severity": "major",
+      "listed": [
+        "link",
+        "links"
+      ],
+      "title": "3 links to other sites lead nowhere: the pages are gone",
+      "where": [
+        {
+          "url": "https://www.iii.org/press-release/triple-i-lightning-caused-165-billion-in-us-homeowners-claim-payouts-in-2025-average-cost-per-claim-surges-nearly-43-061726",
+          "says": "answered 404; linked from /blog, /blog/why-lightning-damage-matters-for-homeowners",
+          "link": {
+            "paths": [],
+            "status": 404,
+            "answer": "answered 404",
+            "from": [
+              "/blog",
+              "/blog/why-lightning-damage-matters-for-homeowners"
+            ],
+            "more": 0,
+            "why": "broken"
+          },
+          "offSite": true
+        },
+        {
+          "url": "https://www.xpress-pay.com/info.asp?pageToLoad=1",
+          "says": "answered 404; linked from /terms-and-service",
+          "link": {
+            "paths": [],
+            "status": 404,
+            "answer": "answered 404",
+            "from": [
+              "/terms-and-service"
+            ],
+            "more": 0,
+            "why": "broken"
+          },
+          "offSite": true
+        },
+        {
+          "url": "https://www.xpress-pay.com/info.asp?pageToLoad=2",
+          "says": "answered 404; linked from /terms-and-service",
+          "link": {
+            "paths": [],
+            "status": 404,
+            "answer": "answered 404",
+            "from": [
+              "/terms-and-service"
+            ],
+            "more": 0,
+            "why": "broken"
+          },
+          "offSite": true
+        }
+      ],
+      "why": "Sites move and close: a visitor who follows one of these links meets an error page, or nothing at all, on someone else's site, reached from this one.",
+      "fix": "Point each link at where the page lives now, or take it out. The suite's link report asks every one again on each run, and fails when one that answered stops."
+    },
+    {
+      "code": "SITE-15",
+      "severity": "minor",
+      "title": "4 pages have no main heading",
+      "where": [
+        {
+          "url": "https://www.frontlineinsurance.com/",
+          "says": "no h1 with words shown"
+        },
+        {
+          "url": "https://www.frontlineinsurance.com/quote",
+          "says": "no h1 with words shown"
+        },
+        {
+          "url": "https://www.frontlineinsurance.com/products",
+          "says": "no h1 with words shown"
+        },
+        {
+          "url": "https://www.frontlineinsurance.com/agreements",
+          "says": "no h1 with words shown"
+        }
+      ],
+      "why": "Screen reader users jump to the h1 to learn what a page is, and search engines read it as the page's subject; none, or several competing, says neither.",
+      "fix": "Give each page one h1 naming what it shows; the site's name in the header is not it."
+    },
+    {
+      "code": "SITE-24",
+      "severity": "minor",
+      "listed": [
+        "missing header",
+        "missing headers"
+      ],
+      "title": "4 security headers no page sends",
+      "where": [
+        {
+          "url": "https://www.frontlineinsurance.com/",
+          "says": "no page of the site sends Strict-Transport-Security (without it, browsers are not told to keep to https)"
+        },
+        {
+          "url": "https://www.frontlineinsurance.com/",
+          "says": "no page of the site sends Content-Security-Policy (without it, nothing limits which scripts a page may run)"
+        },
+        {
+          "url": "https://www.frontlineinsurance.com/",
+          "says": "no page of the site sends X-Frame-Options or frame-ancestors (without it, another site can frame the page to trick a click)"
+        },
+        {
+          "url": "https://www.frontlineinsurance.com/",
+          "says": "no page of the site sends X-Content-Type-Options: nosniff (without it, a browser may guess a file's type from its content)"
+        }
+      ],
+      "why": "Each header closes off one way the site could be misused (a downgrade to http, a script slipped in, the site framed in another to trick a click). A missing one is a weaker defence, not a sign the site has been attacked; security reviews ask for them, and each costs a line of server configuration.",
+      "fix": "Add the missing headers in the web server or the CDN (one setting each), starting with Strict-Transport-Security."
+    },
+    {
+      "code": "SITE-41",
+      "severity": "minor",
+      "title": "1 form field on 9 pages has no visible label, only a placeholder",
+      "where": [
+        {
+          "url": "https://www.frontlineinsurance.com/products/virginia",
+          "says": "`<input name=\"zipCode\">`, on 9 pages: /products/virginia, /products/maryland, /products/delaware and 6 more"
+        }
+      ],
+      "listed": [
+        "form field",
+        "form fields"
+      ],
+      "why": "A screen reader reads the placeholder out, so the field is named; but the placeholder vanishes once typing starts, so a visitor who looks back cannot see what the field was for, and placeholder text is often too faint to read. Accessibility audits flag it.",
+      "fix": "Give each field a visible <label for=\"its id\">; keep the placeholder, if at all, as an example of what to type."
+    },
+    {
+      "code": "SITE-29",
+      "severity": "minor",
+      "listed": [
+        "address",
+        "addresses"
+      ],
+      "title": "The site publishes no security.txt, the file that tells security researchers whom to contact",
+      "where": [
+        {
+          "url": "https://www.frontlineinsurance.com/.well-known/security.txt",
+          "says": "answered 404"
+        }
+      ],
+      "why": "Researchers who find a security problem look for /.well-known/security.txt to know whom to tell (RFC 9116); without it they may not report it, or report it publicly.",
+      "fix": "Publish /.well-known/security.txt with a Contact line (an email address or a form) and an Expires line."
+    }
+  ],
+  "siteControls": [
+    {
+      "kind": "button",
+      "words": [
+        "Our Products"
+      ],
+      "region": "header",
+      "xpath": "//button[normalize-space()='Our Products']",
+      "stability": "OK",
+      "pages": 40,
+      "seenOn": "https://www.frontlineinsurance.com/"
+    },
+    {
+      "kind": "button",
+      "words": [
+        "About Us"
+      ],
+      "region": "header",
+      "xpath": "//button[normalize-space()='About Us']",
+      "stability": "OK",
+      "pages": 40,
+      "seenOn": "https://www.frontlineinsurance.com/"
+    },
+    {
+      "kind": "button",
+      "words": [
+        "Get a Quote"
+      ],
+      "region": "header",
+      "xpath": "//button[normalize-space()='Get a Quote']",
+      "stability": "OK",
+      "pages": 40,
+      "seenOn": "https://www.frontlineinsurance.com/"
+    },
+    {
+      "kind": "button",
+      "words": [
+        "Manage Account"
+      ],
+      "region": "header",
+      "xpath": "//button[normalize-space()='Manage Account']",
+      "stability": "OK",
+      "pages": 40,
+      "seenOn": "https://www.frontlineinsurance.com/"
+    },
+    {
+      "kind": "button",
+      "words": [
+        "COOKIE PREFERENCES"
+      ],
+      "region": "footer",
+      "xpath": "//button[normalize-space()='Cookie Preferences']",
+      "stability": "OK",
+      "pages": 39,
+      "seenOn": "https://www.frontlineinsurance.com/"
+    }
+  ]
+}

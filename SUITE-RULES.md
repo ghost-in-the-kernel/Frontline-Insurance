@@ -49,6 +49,3 @@ The rules files (SuiteRules.java, SuiteRulesTest.java, this file and `src/test/r
 with the suite. A change to one is a change outside a YOURS block: regenerating overwrites it, SR-16
 reports it, and `suite verify frontlineinsurance-com-tests` finds it by comparing every generated file with what
 Suite Builder generates. To change a rule, change Suite Builder.
-
-**A demo suite: suite verify cannot compare this suite's files with what Suite Builder generates**, as it holds no crawl to generate
-from. A change to a rule here is found by the suite's own check in every run (SR-16) and by `suite build <the site>`, which puts it back.

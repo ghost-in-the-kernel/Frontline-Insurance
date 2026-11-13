@@ -41,7 +41,7 @@ mvn test -Dthreads=4                   four test classes at once, each in its ow
 mvn test -Dgroups=critical             the critical family: what matters most, marked by you
 ```
 
-**Too many requests (HTTP 429).** Built with --demo, for a site the team does not own: 1000 ms before each test but the first and between the link report's requests, as the crawl paced itself. At a 429 the run stops: no further test or request is sent; the test that met it is not run to its end (a skip, never a failure), the run's last lines and its report name it, the tests left are counted as not run, and the run does not fail for the site's limit. Every request to the site is answered so: its pages, the link report, the not-found test, a link checked with answers() and the API tests; links to other sites are not. A plain 503 is an ordinary failure.
+**Too many requests (HTTP 429).** Built for the team's own site: no pause unless one is asked for (1000 on a site you don't own). At a 429 the request is asked again after 3 s, then 9 s, then 27 s; a 429 to the last fails the test as any error does, it is not tried again, and the run goes on. Every request to the site is answered so: its pages, the link report, the not-found test, a link checked with answers() and the API tests; links to other sites are not. A plain 503 is an ordinary failure.
 
 **API tests.** `core/Api.java` is ready: `Api.site().get("/api/products").expectStatus(200).expectJson("items[0].name", "Lamp")`;
 `.asRole("user")` signs a call in with that role's account, `.bearer(SiteConfig.secret("apiToken"))` with a token
@@ -95,7 +95,7 @@ options of your own on the command line or in `MAVEN_ARGS`.
 
 Each package's `package-info.java` says what belongs in it: `core/` the library, `uri/` the paths, `pages/` the page types.
 
-This is a demo suite: it holds no crawl and no saved pages (crawl/pages/ does not exist). The crawl, its grouping and its pages stay in the dock, beside the suite.
+The pages the crawl read (crawl/pages/) are committed with this suite (pages mode `all`, the default). To keep them off git, rebuild with `suite build frontlineinsurance-com-tests --crawl-pages local`, or `suite build frontlineinsurance-com-tests --crawl-pages public-only` to commit only the pages read signed out.
 
 Page types found (22):
 
