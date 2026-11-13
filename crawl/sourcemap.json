@@ -10,7 +10,7 @@
         "page HomePage opens ()",
         "page HomePage url-shapes /",
         "page HomePage doors click, read, verify",
-        "page HomePage settles 400",
+        "page HomePage settles 300",
         "page HomePage title is \"Frontline Insurance | Home and Commercial Property Insurance\""
       ],
       "evidence": [
@@ -47,7 +47,7 @@
         {
           "file": "src/main/java/com/frontlineinsurance/tests/pages/home/HomePage.java",
           "line": 97,
-          "fact": "page HomePage settles 400",
+          "fact": "page HomePage settles 300",
           "why": "the median of its pages read, after their load event, the crawl's quiet windows taken out"
         },
         {
@@ -2389,7 +2389,7 @@
         "page QuotePage opens ()",
         "page QuotePage url-shapes /quote",
         "page QuotePage doors click, check, enter, read, verify, execute",
-        "page QuotePage settles 1400",
+        "page QuotePage settles 1600",
         "page QuotePage title is \"Get a Quote | Frontline Insurance\""
       ],
       "evidence": [
@@ -2426,7 +2426,7 @@
         {
           "file": "src/main/java/com/frontlineinsurance/tests/pages/quote/QuotePage.java",
           "line": 104,
-          "fact": "page QuotePage settles 1400",
+          "fact": "page QuotePage settles 1600",
           "why": "the median of its pages read, after their load event, the crawl's quiet windows taken out"
         },
         {
@@ -3705,7 +3705,7 @@
         "page EmergencyServicesPage opens ()",
         "page EmergencyServicesPage url-shapes /emergency-services",
         "page EmergencyServicesPage doors click, enter, read, verify, execute",
-        "page EmergencyServicesPage settles 1000",
+        "page EmergencyServicesPage settles 900",
         "page EmergencyServicesPage title is \"Emergency Services | Frontline Insurance\""
       ],
       "evidence": [
@@ -3742,7 +3742,7 @@
         {
           "file": "src/main/java/com/frontlineinsurance/tests/pages/emergencyservices/EmergencyServicesPage.java",
           "line": 104,
-          "fact": "page EmergencyServicesPage settles 1000",
+          "fact": "page EmergencyServicesPage settles 900",
           "why": "the median of its pages read, after their load event, the crawl's quiet windows taken out"
         },
         {
@@ -5504,7 +5504,7 @@
         "page ContactUsBecomePage opens ()",
         "page ContactUsBecomePage url-shapes /contact-us/become-an-agent",
         "page ContactUsBecomePage doors click, check, enter, read, verify, execute",
-        "page ContactUsBecomePage settles 100",
+        "page ContactUsBecomePage settles 0",
         "page ContactUsBecomePage title is \"Become an Agent | Frontline Insurance\""
       ],
       "evidence": [
@@ -5541,7 +5541,7 @@
         {
           "file": "src/main/java/com/frontlineinsurance/tests/pages/contactusbecome/ContactUsBecomePage.java",
           "line": 108,
-          "fact": "page ContactUsBecomePage settles 100",
+          "fact": "page ContactUsBecomePage settles 0",
           "why": "the median of its pages read, after their load event, the crawl's quiet windows taken out"
         },
         {
@@ -6989,7 +6989,7 @@
         "page ElectronicDocumentDeliveryPage opens ()",
         "page ElectronicDocumentDeliveryPage url-shapes /electronic-document-delivery",
         "page ElectronicDocumentDeliveryPage doors read, verify",
-        "page ElectronicDocumentDeliveryPage settles 100",
+        "page ElectronicDocumentDeliveryPage settles 0",
         "page ElectronicDocumentDeliveryPage title is \"Electronic Document Delivery | Frontline Insurance\""
       ],
       "evidence": [
@@ -7026,7 +7026,7 @@
         {
           "file": "src/main/java/com/frontlineinsurance/tests/pages/electronicdocument/ElectronicDocumentDeliveryPage.java",
           "line": 96,
-          "fact": "page ElectronicDocumentDeliveryPage settles 100",
+          "fact": "page ElectronicDocumentDeliveryPage settles 0",
           "why": "the median of its pages read, after their load event, the crawl's quiet windows taken out"
         },
         {

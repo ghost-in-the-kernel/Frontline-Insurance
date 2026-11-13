@@ -165,14 +165,6 @@ Each of these links answered an error or did not answer. A person is to look at 
 - https://www.xpress-pay.com/info.asp?pageToLoad=1: answered 404; linked from /terms-and-service
 - https://www.xpress-pay.com/info.asp?pageToLoad=2: answered 404; linked from /terms-and-service
 
-### MAJOR SITE-20: 1 script, style sheet or data request on 1 page failed to load
-
-**Why it matters:** A script or style sheet that does not load leaves part of the page unstyled or not working: a menu that does not open, a button that does nothing, a list that never fills. Visitors see it; nothing tells the site's owner.
-
-**Likely fix:** Point each at a file that exists (a path changed in a release is the usual cause), or remove the reference.
-
-- /blog/why-frontlines-home-solutions-program-matters-for-homeowners: /_next/static/chunks/098jkrn77vgzt.js (502)
-
 ### MINOR SITE-15: 4 pages have no main heading
 
 **Why it matters:** Screen reader users jump to the h1 to learn what a page is, and search engines read it as the page's subject; none, or several competing, says neither.

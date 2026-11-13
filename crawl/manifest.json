@@ -11,11 +11,11 @@
     "dirty": true
   },
   "framework": "playwright",
-  "generatedAt": "2026-11-13T01:28:35.033Z",
-  "command": "suite-builder build https://www.frontlineinsurance.com/",
+  "generatedAt": "2026-11-13T01:57:19.151Z",
+  "command": "suite-builder build https://www.frontlineinsurance.com/ --fresh",
   "templates": null,
   "crawl": null,
-  "crawlFileSaved": "2026-11-12T18:29:36.186Z",
+  "crawlFileSaved": "2026-11-13T01:57:17.770Z",
   "pages": {
     "ship": "local",
     "crawl": null,

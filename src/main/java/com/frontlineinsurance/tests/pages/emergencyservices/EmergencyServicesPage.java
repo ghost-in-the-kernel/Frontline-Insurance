@@ -102,7 +102,7 @@ public class EmergencyServicesPage extends LoadablePage<EmergencyServicesPage> i
     /** What the crawl timed of these pages after their load event (core/Timings flags one much slower). */
     @Override
     protected long crawlSettledMs() {
-        return 1000;
+        return 900;
     }
 
     @Override

@@ -1,6 +1,6 @@
 # Automated site review: `www.frontlineinsurance.com`
 
-40 pages of `https://www.frontlineinsurance.com` (and 58 addresses that answered an error), read on 2026-11-12 by Suite Builder's crawler in a real browser, logged out, as a first-time visitor sees them. Nothing was sent, bought or signed in to. This review reads the public site as it is served. It also observes the site's own security guards, as a visitor's browser sees them. It sends nothing and attacks nothing.
+40 pages of `https://www.frontlineinsurance.com` (and 58 addresses that answered an error), read on 2026-11-13 by Suite Builder's crawler in a real browser, logged out, as a first-time visitor sees them. Nothing was sent, bought or signed in to. This review reads the public site as it is served. It also observes the site's own security guards, as a visitor's browser sees them. It sends nothing and attacks nothing.
 
 ## Links that need a look (61)
 
@@ -68,11 +68,11 @@ Each of these links answered an error or did not answer. A person is to look at 
 - `https://www.xpress-pay.com/info.asp?pageToLoad=1` answered 404; linked from /terms-and-service; broken (SITE-33)
 - `https://www.xpress-pay.com/info.asp?pageToLoad=2` answered 404; linked from /terms-and-service; broken (SITE-33)
 
-**4 major, 4 minor.** Major: lets a visitor or a search engine down now. Minor: worth fixing. Info: said for the record; counts against nothing. Each finding lists every page the read saw it on.
+**3 major, 4 minor.** Major: lets a visitor or a search engine down now. Minor: worth fixing. Info: said for the record; counts against nothing. Each finding lists every page the read saw it on.
 
 ## What this review checked
 
-Of 40 checks, 39 ran on this crawl; 1 could not be confirmed.
+Of 40 checks, 38 ran on this crawl; 2 could not be confirmed.
 
 <details>
 <summary>The checks, by kind</summary>
@@ -105,14 +105,14 @@ Markup, accessibility and search (13 of 13 ran)
 - The year in the copyright notice
 - Form fields whose only label is a placeholder
 
-Loading and speed (6 of 7 ran)
+Loading and speed (5 of 7 ran)
 - Scripts, style sheets and data requests that fail to load
 - Errors thrown by the site's own scripts
 - Pages slow to answer or to load
 - Requests over plain http from an https page
 - Requests to other sites' hosts that fail
 - Pages that did not finish loading: not confirmed
-- What failed for the crawler on other sites, or from no known source
+- What failed for the crawler on other sites, or from no known source: not confirmed
 
 The site's own addresses, certificate and headers (9 of 9 ran)
 - Addresses of the site that do not answer
@@ -232,19 +232,6 @@ Up to 7 more may not be listed: the crawl notes the first 5 different ones on ea
 - `https://www.iii.org/press-release/triple-i-lightning-caused-165-billion-in-us-homeowners-claim-payouts-in-2025-average-cost-per-claim-surges-nearly-43-061726` answered 404; linked from /blog, /blog/why-lightning-damage-matters-for-homeowners
 - `https://www.xpress-pay.com/info.asp?pageToLoad=1` answered 404; linked from /terms-and-service
 - `https://www.xpress-pay.com/info.asp?pageToLoad=2` answered 404; linked from /terms-and-service
-
-</details>
-
-## major SITE-20 1 script, style sheet or data request on 1 page failed to load
-
-**Why it matters.** A script or style sheet that does not load leaves part of the page unstyled or not working: a menu that does not open, a button that does nothing, a list that never fills. Visitors see it; nothing tells the site's owner.
-
-**Likely fix.** Point each at a file that exists \(a path changed in a release is the usual cause\), or remove the reference.
-
-<details open>
-<summary>1 script, style sheet or data request</summary>
-
-- `/blog/why-frontlines-home-solutions-program-matters-for-homeowners` /\_next/static/chunks/098jkrn77vgzt.js \(502\)
 
 </details>
 

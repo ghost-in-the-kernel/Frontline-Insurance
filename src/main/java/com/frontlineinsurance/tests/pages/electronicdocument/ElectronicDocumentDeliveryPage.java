@@ -94,7 +94,7 @@ public class ElectronicDocumentDeliveryPage extends LoadablePage<ElectronicDocum
     /** What the crawl timed of these pages after their load event (core/Timings flags one much slower). */
     @Override
     protected long crawlSettledMs() {
-        return 100;
+        return 0;
     }
 
     @Override
