@@ -1,0 +1,292 @@
+{
+  "tool": "suite-builder",
+  "ledgerVersion": 1,
+  "entities": [
+    {
+      "id": "type:/",
+      "kind": "page-type",
+      "introducedAt": "d879fc44f7824a1ca41391ea64c65276bd96c70423e933bf12f7c5c92ac3c341",
+      "cls": "HomePage",
+      "patterns": [
+        "/"
+      ],
+      "lifecycle": {
+        "state": "present",
+        "lastSeenIn": "d879fc44f7824a1ca41391ea64c65276bd96c70423e933bf12f7c5c92ac3c341"
+      }
+    },
+    {
+      "id": "type:/privacy-policy",
+      "kind": "page-type",
+      "introducedAt": "d879fc44f7824a1ca41391ea64c65276bd96c70423e933bf12f7c5c92ac3c341",
+      "cls": "PrivacyPolicyPage",
+      "patterns": [
+        "/privacy-policy"
+      ],
+      "lifecycle": {
+        "state": "present",
+        "lastSeenIn": "d879fc44f7824a1ca41391ea64c65276bd96c70423e933bf12f7c5c92ac3c341"
+      }
+    },
+    {
+      "id": "type:/products/*",
+      "kind": "page-type",
+      "introducedAt": "d879fc44f7824a1ca41391ea64c65276bd96c70423e933bf12f7c5c92ac3c341",
+      "cls": "ProductPage",
+      "patterns": [
+        "/products/*"
+      ],
+      "lifecycle": {
+        "state": "present",
+        "lastSeenIn": "d879fc44f7824a1ca41391ea64c65276bd96c70423e933bf12f7c5c92ac3c341"
+      }
+    },
+    {
+      "id": "type:/cookie-policy",
+      "kind": "page-type",
+      "introducedAt": "d879fc44f7824a1ca41391ea64c65276bd96c70423e933bf12f7c5c92ac3c341",
+      "cls": "CookiePolicyPage",
+      "patterns": [
+        "/cookie-policy"
+      ],
+      "lifecycle": {
+        "state": "present",
+        "lastSeenIn": "d879fc44f7824a1ca41391ea64c65276bd96c70423e933bf12f7c5c92ac3c341"
+      }
+    },
+    {
+      "id": "type:/find-an-agent",
+      "kind": "page-type",
+      "introducedAt": "d879fc44f7824a1ca41391ea64c65276bd96c70423e933bf12f7c5c92ac3c341",
+      "cls": "FindAnAgentPage",
+      "patterns": [
+        "/find-an-agent"
+      ],
+      "lifecycle": {
+        "state": "present",
+        "lastSeenIn": "d879fc44f7824a1ca41391ea64c65276bd96c70423e933bf12f7c5c92ac3c341"
+      }
+    },
+    {
+      "id": "type:/quote",
+      "kind": "page-type",
+      "introducedAt": "d879fc44f7824a1ca41391ea64c65276bd96c70423e933bf12f7c5c92ac3c341",
+      "cls": "QuotePage",
+      "patterns": [
+        "/quote"
+      ],
+      "lifecycle": {
+        "state": "present",
+        "lastSeenIn": "d879fc44f7824a1ca41391ea64c65276bd96c70423e933bf12f7c5c92ac3c341"
+      }
+    },
+    {
+      "id": "type:/home-services",
+      "kind": "page-type",
+      "introducedAt": "d879fc44f7824a1ca41391ea64c65276bd96c70423e933bf12f7c5c92ac3c341",
+      "cls": "HomeServicesPage",
+      "patterns": [
+        "/home-services"
+      ],
+      "lifecycle": {
+        "state": "present",
+        "lastSeenIn": "d879fc44f7824a1ca41391ea64c65276bd96c70423e933bf12f7c5c92ac3c341"
+      }
+    },
+    {
+      "id": "type:/financial-rating",
+      "kind": "page-type",
+      "introducedAt": "d879fc44f7824a1ca41391ea64c65276bd96c70423e933bf12f7c5c92ac3c341",
+      "cls": "FinancialRatingPage",
+      "patterns": [
+        "/financial-rating"
+      ],
+      "lifecycle": {
+        "state": "present",
+        "lastSeenIn": "d879fc44f7824a1ca41391ea64c65276bd96c70423e933bf12f7c5c92ac3c341"
+      }
+    },
+    {
+      "id": "type:/rebranding",
+      "kind": "page-type",
+      "introducedAt": "d879fc44f7824a1ca41391ea64c65276bd96c70423e933bf12f7c5c92ac3c341",
+      "cls": "RebrandingPage",
+      "patterns": [
+        "/rebranding"
+      ],
+      "lifecycle": {
+        "state": "present",
+        "lastSeenIn": "d879fc44f7824a1ca41391ea64c65276bd96c70423e933bf12f7c5c92ac3c341"
+      }
+    },
+    {
+      "id": "type:/make-a-payment",
+      "kind": "page-type",
+      "introducedAt": "d879fc44f7824a1ca41391ea64c65276bd96c70423e933bf12f7c5c92ac3c341",
+      "cls": "MakeAPaymentPage",
+      "patterns": [
+        "/make-a-payment"
+      ],
+      "lifecycle": {
+        "state": "present",
+        "lastSeenIn": "d879fc44f7824a1ca41391ea64c65276bd96c70423e933bf12f7c5c92ac3c341"
+      }
+    },
+    {
+      "id": "type:/emergency-services",
+      "kind": "page-type",
+      "introducedAt": "d879fc44f7824a1ca41391ea64c65276bd96c70423e933bf12f7c5c92ac3c341",
+      "cls": "EmergencyServicesPage",
+      "patterns": [
+        "/emergency-services"
+      ],
+      "lifecycle": {
+        "state": "present",
+        "lastSeenIn": "d879fc44f7824a1ca41391ea64c65276bd96c70423e933bf12f7c5c92ac3c341"
+      }
+    },
+    {
+      "id": "type:/help-center",
+      "kind": "page-type",
+      "introducedAt": "d879fc44f7824a1ca41391ea64c65276bd96c70423e933bf12f7c5c92ac3c341",
+      "cls": "HelpCenterPage",
+      "patterns": [
+        "/help-center"
+      ],
+      "lifecycle": {
+        "state": "present",
+        "lastSeenIn": "d879fc44f7824a1ca41391ea64c65276bd96c70423e933bf12f7c5c92ac3c341"
+      }
+    },
+    {
+      "id": "type:/contact-us",
+      "kind": "page-type",
+      "introducedAt": "d879fc44f7824a1ca41391ea64c65276bd96c70423e933bf12f7c5c92ac3c341",
+      "cls": "ContactUsPage",
+      "patterns": [
+        "/contact-us"
+      ],
+      "lifecycle": {
+        "state": "present",
+        "lastSeenIn": "d879fc44f7824a1ca41391ea64c65276bd96c70423e933bf12f7c5c92ac3c341"
+      }
+    },
+    {
+      "id": "type:/careers",
+      "kind": "page-type",
+      "introducedAt": "d879fc44f7824a1ca41391ea64c65276bd96c70423e933bf12f7c5c92ac3c341",
+      "cls": "CareersPage",
+      "patterns": [
+        "/careers"
+      ],
+      "lifecycle": {
+        "state": "present",
+        "lastSeenIn": "d879fc44f7824a1ca41391ea64c65276bd96c70423e933bf12f7c5c92ac3c341"
+      }
+    },
+    {
+      "id": "type:/terms-and-service",
+      "kind": "page-type",
+      "introducedAt": "d879fc44f7824a1ca41391ea64c65276bd96c70423e933bf12f7c5c92ac3c341",
+      "cls": "TermsAndServicePage",
+      "patterns": [
+        "/terms-and-service"
+      ],
+      "lifecycle": {
+        "state": "present",
+        "lastSeenIn": "d879fc44f7824a1ca41391ea64c65276bd96c70423e933bf12f7c5c92ac3c341"
+      }
+    },
+    {
+      "id": "type:/contact-us/become-an-agent",
+      "kind": "page-type",
+      "introducedAt": "d879fc44f7824a1ca41391ea64c65276bd96c70423e933bf12f7c5c92ac3c341",
+      "cls": "ContactUsBecomePage",
+      "patterns": [
+        "/contact-us/become-an-agent"
+      ],
+      "lifecycle": {
+        "state": "present",
+        "lastSeenIn": "d879fc44f7824a1ca41391ea64c65276bd96c70423e933bf12f7c5c92ac3c341"
+      }
+    },
+    {
+      "id": "type:/blog/*",
+      "kind": "page-type",
+      "introducedAt": "d879fc44f7824a1ca41391ea64c65276bd96c70423e933bf12f7c5c92ac3c341",
+      "cls": "BlogPostPage",
+      "patterns": [
+        "/blog/*"
+      ],
+      "lifecycle": {
+        "state": "present",
+        "lastSeenIn": "d879fc44f7824a1ca41391ea64c65276bd96c70423e933bf12f7c5c92ac3c341"
+      }
+    },
+    {
+      "id": "type:/electronic-document-delivery",
+      "kind": "page-type",
+      "introducedAt": "d879fc44f7824a1ca41391ea64c65276bd96c70423e933bf12f7c5c92ac3c341",
+      "cls": "ElectronicDocumentDeliveryPage",
+      "patterns": [
+        "/electronic-document-delivery"
+      ],
+      "lifecycle": {
+        "state": "present",
+        "lastSeenIn": "d879fc44f7824a1ca41391ea64c65276bd96c70423e933bf12f7c5c92ac3c341"
+      }
+    },
+    {
+      "id": "type:/our-story",
+      "kind": "page-type",
+      "introducedAt": "d879fc44f7824a1ca41391ea64c65276bd96c70423e933bf12f7c5c92ac3c341",
+      "cls": "OurStoryPage",
+      "patterns": [
+        "/our-story"
+      ],
+      "lifecycle": {
+        "state": "present",
+        "lastSeenIn": "d879fc44f7824a1ca41391ea64c65276bd96c70423e933bf12f7c5c92ac3c341"
+      }
+    },
+    {
+      "id": "type:/products",
+      "kind": "page-type",
+      "introducedAt": "d879fc44f7824a1ca41391ea64c65276bd96c70423e933bf12f7c5c92ac3c341",
+      "cls": "ProductsPage",
+      "patterns": [
+        "/products"
+      ],
+      "lifecycle": {
+        "state": "present",
+        "lastSeenIn": "d879fc44f7824a1ca41391ea64c65276bd96c70423e933bf12f7c5c92ac3c341"
+      }
+    },
+    {
+      "id": "type:/blog",
+      "kind": "page-type",
+      "introducedAt": "d879fc44f7824a1ca41391ea64c65276bd96c70423e933bf12f7c5c92ac3c341",
+      "cls": "BlogPage",
+      "patterns": [
+        "/blog"
+      ],
+      "lifecycle": {
+        "state": "present",
+        "lastSeenIn": "d879fc44f7824a1ca41391ea64c65276bd96c70423e933bf12f7c5c92ac3c341"
+      }
+    },
+    {
+      "id": "type:/agreements",
+      "kind": "page-type",
+      "introducedAt": "d879fc44f7824a1ca41391ea64c65276bd96c70423e933bf12f7c5c92ac3c341",
+      "cls": "AgreementsPage",
+      "patterns": [
+        "/agreements"
+      ],
+      "lifecycle": {
+        "state": "present",
+        "lastSeenIn": "d879fc44f7824a1ca41391ea64c65276bd96c70423e933bf12f7c5c92ac3c341"
+      }
+    }
+  ]
+}
